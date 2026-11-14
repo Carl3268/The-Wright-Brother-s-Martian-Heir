@@ -628,8 +628,8 @@ const translationCatalog = {
       "en": "A lot of real discovery."
     },
     "t157": {
-      "vi": "Câu chuyện của Aevum được chuyển thể từ thẻ",
-      "en": "Aevum’s story adapts the"
+      "vi": "Câu chuyện của bọn mình được tạo nên từ các nhật ký bay và dữ liệu của Ingenuity OwO",
+      "en": "Our story is created using Ingenuity's flights logs and datas OwO"
     },
     "t158": {
       "vi": "“Nội dung chi tiết”",
