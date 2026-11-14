@@ -32,8 +32,8 @@ const translationCatalog = {
       "en": "ONE LITTLE BOOK · FIVE CHAPTERS"
     },
     "t008": {
-      "vi": "Aevum · MỘT CÂU CHUYỆN TỪ SAO HỎA",
-      "en": "Aevum · A STORY FROM MARS"
+      "vi": "MỘT CÂU CHUYỆN TỪ SAO HỎA",
+      "en": "A STORY FROM MARS"
     },
     "t009": {
       "vi": "NGƯỜI KẾ THỪA GIẤC MƠ BAY",
@@ -52,8 +52,8 @@ const translationCatalog = {
       "en": "Open the book"
     },
     "t013": {
-      "vi": "BY Aevum",
-      "en": "BY Aevum"
+      "vi": "",
+      "en": ""
     },
     "t014": {
       "vi": "GỬI NHỮNG NGƯỜI BẠN THÍCH NGƯỚC NHÌN BẦU TRỜI",
@@ -164,8 +164,8 @@ const translationCatalog = {
       "en": "How did a little helicopter get all the way here?"
     },
     "t041": {
-      "vi": "NHÓM Aevum",
-      "en": "TEAM Aevum"
+      "vi": "",
+      "en": ""
     },
     "t042": {
       "vi": "CHƯƠNG 01",
@@ -692,8 +692,8 @@ const translationCatalog = {
       "en": "Story: Aevum. GitHub:"
     },
     "t173": {
-      "vi": "(MIT). Hình ảnh: NASA / JPL-Caltech; một số ảnh có thêm tác giả ASU / MSSS. Ảnh bay 13 được dùng minh họa và có chú thích rõ. Logo: Aevum. Phông chữ: DM Sans, Instrument Serif, Be Vietnam Pro và Lora (SIL Open Font License).",
-      "en": "(MIT). Images: NASA / JPL-Caltech, with additional ASU / MSSS credits where applicable. Flight 13 images used as illustrations are clearly captioned. Logo: Aevum. Fonts: DM Sans, Instrument Serif, Be Vietnam Pro, and Lora (SIL Open Font License)."
+      "vi": "(MIT). Hình ảnh: NASA / JPL-Caltech; một số ảnh có thêm tác giả ASU / MSSS. Logo: Aevum. Phông chữ: DM Sans, Instrument Serif, Be Vietnam Pro và Lora (SIL Open Font License).",
+      "en": "(MIT). Images: NASA / JPL-Caltech, with additional ASU / MSSS credits where applicable. Logo: Aevum. Fonts: DM Sans, Instrument Serif, Be Vietnam Pro, and Lora (SIL Open Font License)."
     },
     "t174": {
       "vi": ". Hình ảnh: NASA / JPL-Caltech; một số ảnh có thêm tác giả ASU / MSSS, gồm ảnh từ thẻ “Ảnh” trong tài liệu nhóm. Ảnh bay 13 được dùng minh họa và có chú thích rõ. Logo: bản vector dựng theo ảnh nhóm cung cấp. Phông chữ: DM Sans, Instrument Serif, Be Vietnam Pro và Lora (SIL Open Font License).",
@@ -882,8 +882,8 @@ const translationCatalog = {
   },
   "attrs": {
     "a001": {
-      "vi": "Aevum, về đầu câu chuyện",
-      "en": "Aevum, back to the beginning"
+      "vi": "OwO, về đầu câu chuyện",
+      "en": "OwO, back to the beginning"
     },
     "a002": {
       "vi": "Điều hướng chính",
@@ -1147,7 +1147,7 @@ const storySteps = $$('.story-step');
 const dialogs = $$('dialog');
 const listenButton = $('#listen');
 const speechSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
-let narrationEnabled = false;
+let narrationEnabled = true;
 let currentStep = null;
 let speechGeneration = 0;
 let activeDialog = null;
