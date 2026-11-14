@@ -52,8 +52,8 @@ Deploy as a static website using Cloudflare. Keep `index.html` at the deployment
 
 Created by **Aevum**.
 **CONTRIBUTORS**:
-- PHAM NGUYEN HA AN: WEB DEVELOPERS & DESIGNERS
-- NGUYEN VU MINH KHANG(leader): SCRIPTS WRITERS & NARRATOR'S SCRIPT
+- PHAM NGUYEN HA AN: WEB DEVELOPMENTS & DESIGNS
+- NGUYEN VU MINH KHANG(leader): SCRIPTS WRITING & NARRATOR'S SCRIPT
 - TRAN KHANH LY: RESOURCES & NARRATORS' VOICES
 - MAI QUYNH THU: RESOURCES & NARRATORS' VOICES
 Mission information and imagery: **NASA / JPL-Caltech**, with additional credits inside the website.
