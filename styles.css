@@ -370,14 +370,3 @@ html[lang="en"] .illustration-caption>p{font-size:clamp(27px,2.8vw,40px)}
   .book-reader .cover-open { align-self:center; margin-top:26px; min-height:52px; font-size:16px; }
   .book-reader .cover-signature { margin-top:28px; padding:0; font-size:11px; }
 }
-.team-logo {
-  background: transparent;
-  padding: 0;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.cover-signature > img {
-  filter: none;
-  mix-blend-mode: normal;
-}
