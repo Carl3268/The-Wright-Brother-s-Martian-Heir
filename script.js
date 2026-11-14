@@ -1,4 +1,4 @@
-/* Team AEVUM — vanilla JavaScript, no build step or third-party dependencies. */
+/* Team Aevum — vanilla JavaScript, no build step or third-party dependencies. */
 'use strict';
 
 const translationCatalog = {
@@ -32,8 +32,8 @@ const translationCatalog = {
       "en": "ONE LITTLE BOOK · FIVE CHAPTERS"
     },
     "t008": {
-      "vi": "TỦ SÁCH AEVUM · MỘT CÂU CHUYỆN TỪ SAO HỎA",
-      "en": "THE AEVUM BOOKSHELF · A STORY FROM MARS"
+      "vi": "Aevum · MỘT CÂU CHUYỆN TỪ SAO HỎA",
+      "en": "Aevum · A STORY FROM MARS"
     },
     "t009": {
       "vi": "NGƯỜI KẾ THỪA GIẤC MƠ BAY",
@@ -52,8 +52,8 @@ const translationCatalog = {
       "en": "Open the book"
     },
     "t013": {
-      "vi": "KỂ BỞI NHÓM AEVUM",
-      "en": "A STORY BY TEAM AEVUM"
+      "vi": "BY Aevum",
+      "en": "BY Aevum"
     },
     "t014": {
       "vi": "GỬI NHỮNG NGƯỜI BẠN THÍCH NGƯỚC NHÌN BẦU TRỜI",
@@ -80,8 +80,8 @@ const translationCatalog = {
       "en": "Shall we open its story together?"
     },
     "t020": {
-      "vi": "Thân mến, AEVUM",
-      "en": "With love, AEVUM"
+      "vi": "Thân mến, Aevum",
+      "en": "With love, Aevum"
     },
     "t021": {
       "vi": "LỜI MỞ",
@@ -164,8 +164,8 @@ const translationCatalog = {
       "en": "How did a little helicopter get all the way here?"
     },
     "t041": {
-      "vi": "NHÓM AEVUM",
-      "en": "TEAM AEVUM"
+      "vi": "NHÓM Aevum",
+      "en": "TEAM Aevum"
     },
     "t042": {
       "vi": "CHƯƠNG 01",
@@ -628,8 +628,8 @@ const translationCatalog = {
       "en": "A lot of real discovery."
     },
     "t157": {
-      "vi": "Câu chuyện của AEVUM được chuyển thể từ thẻ",
-      "en": "AEVUM’s story adapts the"
+      "vi": "Câu chuyện của Aevum được chuyển thể từ thẻ",
+      "en": "Aevum’s story adapts the"
     },
     "t158": {
       "vi": "“Nội dung chi tiết”",
@@ -688,20 +688,20 @@ const translationCatalog = {
       "en": "A little thank-you"
     },
     "t172": {
-      "vi": "Kịch bản: nhóm AEVUM. Source gốc:",
-      "en": "Story: Team AEVUM. Original source:"
+      "vi": "Kịch bản: Aevum. Github:",
+      "en": "Story: Aevum. GitHub:"
     },
     "t173": {
-      "vi": "(MIT). Cảm hứng kể chuyện:",
-      "en": "(MIT). Storytelling inspiration:"
+      "vi": "(MIT). Hình ảnh: NASA / JPL-Caltech; một số ảnh có thêm tác giả ASU / MSSS. Ảnh bay 13 được dùng minh họa và có chú thích rõ. Logo: Aevum. Phông chữ: DM Sans, Instrument Serif, Be Vietnam Pro và Lora (SIL Open Font License).",
+      "en": "(MIT). Images: NASA / JPL-Caltech, with additional ASU / MSSS credits where applicable. Flight 13 images used as illustrations are clearly captioned. Logo: Aevum. Fonts: DM Sans, Instrument Serif, Be Vietnam Pro, and Lora (SIL Open Font License)."
     },
     "t174": {
       "vi": ". Hình ảnh: NASA / JPL-Caltech; một số ảnh có thêm tác giả ASU / MSSS, gồm ảnh từ thẻ “Ảnh” trong tài liệu nhóm. Ảnh bay 13 được dùng minh họa và có chú thích rõ. Logo: bản vector dựng theo ảnh nhóm cung cấp. Phông chữ: DM Sans, Instrument Serif, Be Vietnam Pro và Lora (SIL Open Font License).",
       "en": ". Images: NASA / JPL-Caltech, with additional ASU / MSSS credits where applicable, including images from the project’s “Ảnh” (Images) tab. Flight 13 photographs used as illustrations are clearly captioned. Logo: a vector recreation of the team’s supplied image. Fonts: DM Sans, Instrument Serif, Be Vietnam Pro, and Lora (SIL Open Font License)."
     },
     "t175": {
-      "vi": "Dự án độc lập, không đại diện cho NASA. Lời kể được đọc bằng giọng có sẵn trên trình duyệt hoặc thiết bị; chất giọng có thể khác nhau.",
-      "en": "This independent project does not represent NASA. Narration uses voices available in your browser or on your device; the actual sound may vary."
+      "vi": "Dự án độc lập được dựa trên các dữ liệu của NASA. Lời kể được đọc bằng giọng có sẵn trên trình duyệt hoặc thiết bị; chất giọng có thể khác nhau.",
+      "en": "An independent project based on NASA data. Narration uses voices available in your browser or on your device; the actual sound may vary."
     },
     "t176": {
       "vi": "GÓC TÒ MÒ / THỬ CÙNG TỚ NÀO",
@@ -882,8 +882,8 @@ const translationCatalog = {
   },
   "attrs": {
     "a001": {
-      "vi": "AEVUM, về đầu câu chuyện",
-      "en": "AEVUM, back to the beginning"
+      "vi": "Aevum, về đầu câu chuyện",
+      "en": "Aevum, back to the beginning"
     },
     "a002": {
       "vi": "Điều hướng chính",
@@ -999,6 +999,7 @@ const translationCatalog = {
     }
   }
 };
+
 const englishFacts = {
   "landing": {
     "title": "A crane in the Martian sky?",
@@ -1154,10 +1155,12 @@ let toastTimer;
 
 // Both language editions share the same book pages and controls.
 let currentLanguage = 'vi';
+const entryLanguage = typeof document !== 'undefined' && document.documentElement.dataset?.defaultLanguage === 'en' ? 'en' : 'vi';
+currentLanguage = entryLanguage;
 try {
   const queryLanguage = new URLSearchParams(window.location?.search || '').get('lang');
   const savedLanguage = window.localStorage?.getItem('aevum-language');
-  const preferred = queryLanguage || savedLanguage;
+  const preferred = queryLanguage || (entryLanguage === 'en' ? 'en' : savedLanguage);
   if (preferred === 'en' || preferred === 'vi') currentLanguage = preferred;
 } catch { /* The book still works when device storage is unavailable. */ }
 const selectedVoices = { vi: '', en: '' };
@@ -1196,13 +1199,12 @@ function setLanguage(language, { persist = true, notify = true } = {}) {
   currentLanguage = language;
   selectedVoiceURI = selectedVoices[language];
   document.documentElement.lang = language;
-  document.title = tr('Martian Heir — Cuốn sách của Ingenuity | AEVUM', 'Martian Heir — Ingenuity’s Storybook | AEVUM');
+  document.title = tr('Martian Heir — Cuốn sách của Ingenuity | Aevum', 'Martian Heir — Ingenuity’s Storybook | Aevum');
   const description = $('meta[name="description"]');
   description?.setAttribute('content', tr('Chào cậu, tớ là Ingenuity! Cùng một trực thăng nhỏ khám phá Sao Hỏa qua câu chuyện về lòng dũng cảm, sự tò mò và 72 chuyến bay phi thường.', 'Hello, friend! I’m Ingenuity. Explore Mars with a little helicopter through a story of courage, curiosity, and seventy-two extraordinary flights.'));
   languageTextNodes.forEach(({ node, key, original }) => {
     if (!node.isConnected) return;
-    if (language === 'vi') { node.nodeValue = original; return; }
-    const text = translationCatalog.texts[key]?.en;
+    const text = translationCatalog.texts[key]?.[language];
     if (text !== undefined) {
       const leading = /^[.,!?;:]/.test(text) ? '' : (original.match(/^\s*/)?.[0] || '');
       node.nodeValue = leading + text + (original.match(/\s*$/)?.[0] || '');
@@ -1589,7 +1591,7 @@ function updateBookControls() {
   $('#book-counter').textContent = pageCounter(page, currentBookPage);
   const folio = $('.paper-footer>span:last-child', page);
   if (folio && currentBookPage >= 2) folio.textContent = String(compactBook.matches ? currentBookPage - 1 : (currentBookPage - 1) * 2).padStart(2, '0');
-  $('#book-chapter-label').textContent = page.dataset.kind === 'cover' ? tr('Một câu chuyện của AEVUM', 'A story by AEVUM')
+  $('#book-chapter-label').textContent = page.dataset.kind === 'cover' ? tr('Một câu chuyện của Aevum', 'A story by Aevum')
     : page.dataset.kind === 'contents' ? tr('Năm chương · một người bạn nhỏ', 'Five chapters · one little friend')
     : page.dataset.kind === 'ending' ? tr('Hết chuyện, chưa hết ước mơ', 'The story ends. The dream goes on.')
     : `${tr('Chương', 'Chapter')} ${page.dataset.chapter} · ${chapterName(page.dataset.chapter)}`;
