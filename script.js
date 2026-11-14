@@ -1146,6 +1146,75 @@ const bookPages = $$('[data-book-page]');
 const storySteps = $$('.story-step');
 const dialogs = $$('dialog');
 const listenButton = $('#listen');
+const uploadedAudio = {
+  "vi": {
+    "chapter-1": [
+      "assets/audio/vi/clip-02.mp3"
+    ],
+    "scene-2": [
+      "assets/audio/vi/clip-03.mp3"
+    ],
+    "scene-3": [
+      "assets/audio/vi/clip-01.mp3"
+    ],
+    "chapter-2": [
+      "assets/audio/vi/clip-04.mp3"
+    ],
+    "scene-5": [
+      "assets/audio/vi/clip-05.mp3"
+    ],
+    "scene-6": [
+      "assets/audio/vi/clip-06.mp3"
+    ],
+    "chapter-3": [
+      "assets/audio/vi/clip-07.mp3"
+    ],
+    "scene-8": [
+      "assets/audio/vi/clip-08.mp3"
+    ],
+    "chapter-4": [
+      "assets/audio/vi/clip-09.mp3"
+    ]
+  },
+  "en": {
+    "chapter-1": [
+      "assets/audio/en/clip-02.mp3"
+    ],
+    "scene-2": [
+      "assets/audio/en/clip-01.mp3",
+      "assets/audio/en/clip-03.mp3",
+      "assets/audio/en/clip-04.mp3"
+    ],
+    "scene-3": [
+      "assets/audio/en/clip-05.mp3",
+      "assets/audio/en/clip-06.mp3"
+    ],
+    "chapter-2": [
+      "assets/audio/en/clip-11.mp3"
+    ],
+    "scene-5": [
+      "assets/audio/en/clip-07.mp3"
+    ],
+    "scene-6": [
+      "assets/audio/en/clip-08.mp3"
+    ],
+    "chapter-3": [
+      "assets/audio/en/clip-09.mp3"
+    ],
+    "scene-8": [
+      "assets/audio/en/clip-14.mp3"
+    ],
+    "chapter-5": [
+      "assets/audio/en/clip-10.mp3"
+    ],
+    "scene-12": [
+      "assets/audio/en/clip-12.mp3",
+      "assets/audio/en/clip-13.mp3"
+    ]
+  }
+};
+const storyAudio = $('#story-audio') || document.createElement('audio');
+if (!storyAudio.parentNode) { storyAudio.id='story-audio'; storyAudio.hidden=true; storyAudio.preload='metadata'; document.body.append(storyAudio); }
 const speechSupported = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 let narrationEnabled = true;
 let currentStep = null;
@@ -1183,7 +1252,7 @@ function collectLanguageNodes() {
     while ((marker = walker.nextNode())) {
       const key = marker.data.match(/^i18n:(t\d+)$/)?.[1];
       const node = marker.nextSibling;
-      if (key && node?.nodeType === 3) languageTextNodes.push({ node, key, original: node.nodeValue });
+      if (key && node?.nodeType === 3) languageTextNodes.push({ node, key, original: node.nodeValue, sourceLanguage: document.documentElement.lang || 'vi' });
     }
   }
   ['aria-label', 'alt', 'title'].forEach(attribute => {
@@ -1202,8 +1271,9 @@ function setLanguage(language, { persist = true, notify = true } = {}) {
   document.title = tr('Martian Heir — Cuốn sách của Ingenuity | Aevum', 'Martian Heir — Ingenuity’s Storybook | Aevum');
   const description = $('meta[name="description"]');
   description?.setAttribute('content', tr('Chào cậu, tớ là Ingenuity! Cùng một trực thăng nhỏ khám phá Sao Hỏa qua câu chuyện về lòng dũng cảm, sự tò mò và 72 chuyến bay phi thường.', 'Hello, friend! I’m Ingenuity. Explore Mars with a little helicopter through a story of courage, curiosity, and seventy-two extraordinary flights.'));
-  languageTextNodes.forEach(({ node, key, original }) => {
+  languageTextNodes.forEach(({ node, key, original, sourceLanguage }) => {
     if (!node.isConnected) return;
+    if(language==='vi'&&sourceLanguage==='vi'){node.nodeValue=original;return;}
     const text = translationCatalog.texts[key]?.[language];
     if (text !== undefined) {
       const leading = /^[.,!?;:]/.test(text) ? '' : (original.match(/^\s*/)?.[0] || '');
@@ -1386,6 +1456,12 @@ function announce(message) {
 function stopSpeech() {
   speechGeneration += 1;
   if (speechSupported) window.speechSynthesis.cancel();
+  if (typeof storyAudio?.pause === 'function') {
+    storyAudio.onended = null;
+    storyAudio.onerror = null;
+    storyAudio.pause();
+    try { storyAudio.currentTime = 0; } catch { /* Metadata may not have loaded yet. */ }
+  }
 }
 
 // The device may load voices asynchronously; only use the selected language.
@@ -1394,6 +1470,50 @@ const pitchSlider = $('#voice-pitch');
 const rateSlider = $('#voice-rate');
 let selectedVoiceURI = '';
 let voicePreviewing = false;
+function recordedPlaylist(step = currentStep) {
+  const id = step?.closest('[data-book-page]')?.id;
+  return uploadedAudio[currentLanguage]?.[id] || [];
+}
+function recordedSource(step = currentStep) {
+  return (!selectedVoiceURI || selectedVoiceURI === '__recorded__') ? recordedPlaylist(step)[0] || '' : '';
+}
+function hasRecordedNarration() { return Object.keys(uploadedAudio[currentLanguage] || {}).length > 0; }
+function playRecording(step, preview = false, override = null) {
+  const files = override || (recordedSource(step) ? recordedPlaylist(step) : []);
+  if (!files.length || typeof storyAudio?.play !== 'function') return false;
+  stopSpeech();
+  const generation = speechGeneration;
+  let position = 0;
+  voicePreviewing = preview;
+  const current = () => generation === speechGeneration;
+  function failed(error) {
+    if (!current() || error?.name === 'AbortError') return;
+    if (error?.name === 'NotAllowedError') {
+      stopSpeech(); voicePreviewing = false; setNarrationEnabled(false);
+      announce(tr('Bấm Nghe kể để cho phép phát âm thanh.', 'Press Listen to allow audio playback.'));
+      return;
+    }
+    if (step && (preview || (narrationEnabled && !activeDialog && currentStep === step))) {
+      announce(tr('Không tải được bản thu. Đang thử giọng trình duyệt.', 'Recording unavailable. Trying the browser voice.'));
+      speakText(step.dataset.speech, step.dataset.narrator, preview);
+    }
+  }
+  function nextClip() {
+    if (!current() || document.hidden || (!preview && (!narrationEnabled || activeDialog))) return;
+    if (position >= files.length) { voicePreviewing = false; return; }
+    storyAudio.src = files[position++]; storyAudio.playbackRate = Number(rateSlider.value);
+    if ('preservesPitch' in storyAudio) storyAudio.preservesPitch = true;
+    storyAudio.onended = nextClip; storyAudio.onerror = failed;
+    try { storyAudio.play()?.catch(failed); } catch (error) { failed(error); }
+  }
+  nextClip(); return true;
+}
+function updateAudioNote() {
+  if (!currentStep) return;
+  let note = currentStep.querySelector('.recording-note');
+  if (!note) { note=document.createElement('p'); note.className='recording-note'; const text=currentStep.querySelector('.page-story-text'); if(text)currentStep.insertBefore(note,text);else currentStep.append(note); }
+  note.textContent = recordedSource() ? tr('Âm thanh: bản thu bạn cung cấp.', 'Audio: supplied recording — alternate wording, not a word-for-word reading of this page.') : tr('Âm thanh: giọng trình duyệt. Trang này chưa có bản thu được chọn.', 'Audio: browser voice. No supplied recording is selected for this page.');
+}
 function voicesForLanguage() {
   const language = currentLanguage === 'en' ? /^en(?:[-_]|$)/i : /^vi(?:[-_]|$)/i;
   return speechSupported ? window.speechSynthesis.getVoices().filter(voice => language.test(voice.lang)) : [];
@@ -1416,17 +1536,15 @@ function preferredVoice(voices = voicesForLanguage()) {
   return [...voices].sort((a, b) => score(b) - score(a))[0] || null;
 }
 function refreshVoiceOptions() {
-  const voices = voicesForLanguage();
-  voiceSelect.replaceChildren(new Option(tr('Tự chọn giọng phù hợp', 'Choose a suitable voice automatically'), ''));
-  voices.forEach(voice => voiceSelect.add(new Option(voice.name, voice.voiceURI)));
-  if (voices.some(voice => voice.voiceURI === selectedVoiceURI)) voiceSelect.value = selectedVoiceURI;
-  else selectedVoiceURI = '';
-  const chosen = preferredVoice(voices);
-  $('#voice-status').textContent = !speechSupported
-    ? tr('Trình duyệt này chưa hỗ trợ đọc. Cậu vẫn có thể đọc và tải toàn bộ lời kể.', 'This browser does not support narration. You can still read and download the whole story.')
-    : chosen ? tr(`Giọng sẵn sàng: ${chosen.name}. Tông mặc định đã được nâng nhẹ.`, `Voice ready: ${chosen.name}. The default pitch is a little lighter.`)
-    : tr('Chưa tìm thấy giọng tiếng Việt. Cậu có thể bật/cài giọng tiếng Việt trong cài đặt giọng nói của thiết bị rồi mở lại trang.', 'No English voice is available yet. Enable or install an English voice in your device’s speech settings, then reopen the book.');
-  $('#voice-preview').disabled = !chosen;
+  const files=recordedPlaylist(); const recorded=Boolean(recordedSource()); const voices=voicesForLanguage();
+  voiceSelect.disabled=false; pitchSlider.disabled=recorded;
+  voiceSelect.replaceChildren(new Option(tr('Giọng trình duyệt (đọc đúng chữ trên trang)', 'Browser voice (reads the page text)'), '__browser__'));
+  if (files.length) voiceSelect.add(new Option(tr('Bản thu bạn cung cấp', 'Your supplied recording'), '__recorded__'));
+  voices.forEach(voice=>voiceSelect.add(new Option(voice.name,voice.voiceURI)));
+  voiceSelect.value=recorded?'__recorded__':voices.some(v=>v.voiceURI===selectedVoiceURI)?selectedVoiceURI:'__browser__';
+  $('#voice-status').textContent=recorded?tr('Đang dùng MP3 bạn gửi. Chỉnh được tốc độ; giữ nguyên giọng gốc.', 'Using your MP3s. Speed is adjustable; the original voice is preserved. English audio uses alternate wording.') : preferredVoice(voices)?tr('Đang dùng giọng thiết bị để đọc văn bản trên trang.', 'Using a device voice to read this page.') : tr('Chưa có giọng tiếng Việt phù hợp trên thiết bị.', 'No English browser voice is available on this device.');
+  $('#voice-preview').disabled=!recorded&&!preferredVoice(voices);
+  updateAudioNote();
 }
 function setNarrationEnabled(value) {
   narrationEnabled = value;
@@ -1469,11 +1587,12 @@ function speakText(text, narrator = 'ingenuity', preview = false) {
   nextSentence();
 }
 function speakCurrentStep() {
-  if (!narrationEnabled || activeDialog || document.hidden || !currentStep || !speechSupported) { stopSpeech(); return; }
+  if (!narrationEnabled || activeDialog || document.hidden || !currentStep) { stopSpeech(); return; }
+  if (playRecording(currentStep)) return;
   speakText(currentStep.dataset.speech, currentStep.dataset.narrator);
 }
 listenButton.addEventListener('click', () => {
-  if (!speechSupported || !preferredVoice()) { refreshVoiceOptions(); openDialog('voice'); return; }
+  if (!hasRecordedNarration() && (!speechSupported || !preferredVoice())) { refreshVoiceOptions(); openDialog('voice'); return; }
   setNarrationEnabled(!narrationEnabled);
   if (narrationEnabled) {
     announce(currentStep ? tr('Tớ kể trang này nhé. Cậu lật trang theo nhịp của mình thôi.', 'I’ll read this page. Turn the pages at your own pace.') : tr('Đã bật giọng kể. Mở sách rồi chọn trang đầu để nghe nhé.', 'Narration is on. Open the book and start the story to listen.'));
@@ -1484,18 +1603,30 @@ voiceSelect.addEventListener('change', () => {
   selectedVoiceURI = voiceSelect.value;
   selectedVoices[currentLanguage] = selectedVoiceURI;
   refreshVoiceOptions();
-  if (voicePreviewing) speakText(voiceSample(), 'ingenuity', true);
+  if (voicePreviewing) { if (!playRecording(currentStep,true)) speakText(voiceSample(),'ingenuity',true); } else speakCurrentStep();
 });
 function updateVoiceLabels() {
   const pitch = Number(pitchSlider.value);
+  if (recordedSource()) {
+    $('#pitch-value').value = tr('Giữ giọng trong MP3', 'Original recording');
+    $('#rate-value').value = `${formatNumber(rateSlider.value, 2)}×`;
+    return;
+  }
   $('#pitch-value').value = `${pitch >= 1.12 ? tr('Nhẹ & trong', 'Light & clear') : tr('Tự nhiên', 'Natural')} · ${formatNumber(pitch, 2)}`;
   $('#rate-value').value = `${formatNumber(rateSlider.value, 2)}×`;
 }
-[pitchSlider, rateSlider].forEach(slider => slider.addEventListener('input', updateVoiceLabels));
-$('#voice-preview').addEventListener('click', () => speakText(voiceSample(), 'ingenuity', true));
+[pitchSlider, rateSlider].forEach(slider => slider.addEventListener('input', () => {
+  updateVoiceLabels();
+  if (recordedSource() && storyAudio) storyAudio.playbackRate = Number(rateSlider.value);
+}));
+$('#voice-preview').addEventListener('click', () => {
+  if (playRecording(currentStep, true)) return;
+  speakText(voiceSample(), 'ingenuity', true);
+});
 if (speechSupported) window.speechSynthesis.addEventListener('voiceschanged', refreshVoiceOptions);
 refreshVoiceOptions();
 updateVoiceLabels();
+
 
 function openDialog(name) {
   const dialog = $(`#${name}-dialog`);
@@ -1648,6 +1779,7 @@ function showBookPage(index, { animate = true, focus = false, scroll = true, upd
   const nextImage = bookPages[index + 1]?.querySelector('img');
   if (nextImage) { const image = new Image(); image.src = nextImage.getAttribute('src'); }
   currentStep = $('.story-step', next);
+  refreshVoiceOptions(); updateVoiceLabels();
   if (previous !== next) $$('.book-prose,.book-frontispiece,.ending-dedication', next).forEach(page => page.scrollTop = 0);
   updateBookControls();
   if (updateHash) history.replaceState(null, '', `#${next.id}`);

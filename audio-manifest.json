@@ -1,0 +1,69 @@
+{
+  "base_commit": "f1420ef",
+  "vi": {
+    "chapter-1": [
+      "assets/audio/vi/clip-02.mp3"
+    ],
+    "scene-2": [
+      "assets/audio/vi/clip-03.mp3"
+    ],
+    "scene-3": [
+      "assets/audio/vi/clip-01.mp3"
+    ],
+    "chapter-2": [
+      "assets/audio/vi/clip-04.mp3"
+    ],
+    "scene-5": [
+      "assets/audio/vi/clip-05.mp3"
+    ],
+    "scene-6": [
+      "assets/audio/vi/clip-06.mp3"
+    ],
+    "chapter-3": [
+      "assets/audio/vi/clip-07.mp3"
+    ],
+    "scene-8": [
+      "assets/audio/vi/clip-08.mp3"
+    ],
+    "chapter-4": [
+      "assets/audio/vi/clip-09.mp3"
+    ]
+  },
+  "en": {
+    "chapter-1": [
+      "assets/audio/en/clip-02.mp3"
+    ],
+    "scene-2": [
+      "assets/audio/en/clip-01.mp3",
+      "assets/audio/en/clip-03.mp3",
+      "assets/audio/en/clip-04.mp3"
+    ],
+    "scene-3": [
+      "assets/audio/en/clip-05.mp3",
+      "assets/audio/en/clip-06.mp3"
+    ],
+    "chapter-2": [
+      "assets/audio/en/clip-11.mp3"
+    ],
+    "scene-5": [
+      "assets/audio/en/clip-07.mp3"
+    ],
+    "scene-6": [
+      "assets/audio/en/clip-08.mp3"
+    ],
+    "chapter-3": [
+      "assets/audio/en/clip-09.mp3"
+    ],
+    "scene-8": [
+      "assets/audio/en/clip-14.mp3"
+    ],
+    "chapter-5": [
+      "assets/audio/en/clip-10.mp3"
+    ],
+    "scene-12": [
+      "assets/audio/en/clip-12.mp3",
+      "assets/audio/en/clip-13.mp3"
+    ]
+  },
+  "notes": "English recordings use an alternate script and are not word-for-word matches. Missing scenes use browser narration. All original audio bytes are preserved."
+}
