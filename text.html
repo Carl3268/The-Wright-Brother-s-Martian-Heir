@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#19191d">
+  <meta name="description" content="A small helicopter. An impossible sky. Discover Ingenuity’s extraordinary journey on Mars in an interactive story by Team AEVUM.">
+  <title>The Wright Brothers’ Martian Heir — Team AEVUM</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/instrument-serif-normal-400.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/mars-flight.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 5l7 7-7 7"/></symbol>
+    <symbol id="down" viewBox="0 0 24 24"><path d="M12 4v16M5 13l7 7 7-7"/></symbol>
+    <symbol id="sound" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4ZM17 8a6 6 0 0 1 0 8M20 5a10 10 0 0 1 0 14"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="spark" viewBox="0 0 24 24"><path d="M12 2v20M2 12h20M5 5l14 14M5 19 19 5"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+    <symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="headphones" viewBox="0 0 24 24"><path d="M4 15v-3a8 8 0 0 1 16 0v3M4 13h3v7H4a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2ZM20 13h-3v7h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2Z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#chapter-1">Skip to the story</a>
+  <header class="site-header">
+    <a href="#home" class="wordmark" aria-label="AEVUM, back to the beginning"><svg class="icon brand-star"><use href="#spark"/></svg> AEVUM<span class="wordmark-divider"></span><span class="brand-caption">STORIES BEYOND EARTH</span></a>
+    <nav class="header-nav" aria-label="Main navigation">
+      <button class="nav-button" data-dialog="sources">The mission <span class="small-plus">+</span></button>
+      <button class="nav-button listen-button" id="listen" aria-pressed="false"><svg class="icon"><use href="#sound"/></svg><span>Listen</span></button>
+      <button class="chapter-toggle" data-dialog="chapters" aria-label="Open chapter navigation"><span>Chapters</span><svg class="icon"><use href="#menu"/></svg></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="main-title">
+      <img class="hero-image" src="assets/mars-flight.jpg" alt="Artist’s illustration of Ingenuity hovering above the red Martian surface, with Perseverance in the distance." fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-orbit" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow"><span class="live-dot"></span> ABANDONED, BUT NOT FORGOTTEN</p>
+        <p class="title-prelude">THE WRIGHT BROTHERS’</p>
+        <h1 id="main-title">Martian <em>Heir.</em></h1>
+        <p class="hero-description">A small helicopter. A very thin atmosphere.<br>72 flights that changed what we thought was possible.</p>
+        <a class="button button-light" href="#chapter-1"><span>Begin the journey</span><span class="button-icon"><svg class="icon"><use href="#arrow"/></svg></span></a>
+        <div class="hero-reading-note"><span class="tiny-line"></span> THE STORY OF NASA’S INGENUITY</div>
+      </div>
+      <div class="aircraft-tag" aria-hidden="true"><span class="target-mark"></span><div><span class="mono">INGENUITY / MARS HELICOPTER</span><span class="tag-subtitle">Small enough to dream big.</span></div></div>
+      <div class="hero-coordinate mono" aria-hidden="true">18.38° N &nbsp; 77.58° E<br><span>JEZERO CRATER, MARS</span></div>
+      <div class="hero-bottom">
+        <a href="#chapter-1" class="scroll-cue"><span class="scroll-circle"><svg class="icon"><use href="#down"/></svg></span><span>Scroll to explore</span></a>
+        <div class="hero-metadata"><span>05 CHAPTERS</span><span class="meta-dot">·</span><span>ABOUT 5 MINUTES</span><span class="meta-dot">·</span><span class="audio-note"><svg class="icon"><use href="#headphones"/></svg> SOUND OPTIONAL</span></div>
+        <span class="hero-credit">NASA / JPL-Caltech · Artist’s concept</span>
+      </div>
+    </section>
+
+    <section class="prologue section-wrap" aria-labelledby="prologue-title">
+      <div class="section-kicker"><span class="little-cross">+</span> A LETTER FROM ANOTHER WORLD</div>
+      <div class="prologue-content">
+        <h2 id="prologue-title">They gave me five flights.<br>I gave them <em>seventy-two.</em></h2>
+        <p>My name is Ingenuity. I arrived on Mars tucked beneath a rover, carrying a little piece of aviation history — and a very big question.</p>
+        <p class="prologue-question">Could something like me fly in a sky like this?</p>
+      </div>
+      <span class="prologue-index mono" aria-hidden="true">A STORY<br>IN FIVE CHAPTERS ↘</span>
+    </section>
+
+    <div class="story" id="story">
+      <section class="chapter" id="chapter-1" data-chapter="1" aria-labelledby="chapter-title-1">
+        <div class="chapter-stage">
+          <img src="assets/mars-surface.jpg" alt="Artist’s concept of Ingenuity standing on Mars, its two rotors extended." loading="lazy">
+          <div class="stage-shade"></div>
+          <div class="chapter-heading"><span class="chapter-number mono">01 / THE IMPOSSIBLE IDEA</span><h2 id="chapter-title-1">A sky that said<br><em>“you can’t.”</em></h2></div>
+          <div class="image-credit">NASA / JPL-Caltech · Artist’s concept</div>
+        </div>
+        <div class="chapter-narrative">
+          <div class="story-step" data-speech="I am Ingenuity, a little helicopter with an extraordinary destination. But on Mars, the atmosphere is only about one percent as dense as Earth’s. Imagine trying to swim when there is hardly any water. That is what my rotors were up against.">
+            <div class="story-note"><span class="note-label">INGENUITY’S LOG / 01</span><p>On Mars, there is almost no air for my blades to push against.</p><p class="note-secondary">The atmosphere is about <strong>1% as dense as Earth’s.</strong> Imagine trying to swim when there is hardly any water.</p><button class="text-button" data-fact="air">Look closer <span>↗</span></button></div>
+          </div>
+          <div class="story-step" data-speech="My engineers made me astonishingly light: just one point eight kilograms of mass. Mars has weaker gravity, but getting off the ground still seemed almost impossible. Almost.">
+            <div class="story-note"><span class="note-label">SMALL BY DESIGN. BOLD BY NATURE.</span><p>I had to be light.<br>And a little fearless.</p><p class="note-secondary">Just 1.8 kg of mass, with four carbon-fibre blades. Mars’s weaker gravity helped. The thin air made everything harder.</p><div class="note-stat"><span>1.8 <small>kg</small></span><span>SMALL HELICOPTER.<br>ENORMOUS POSSIBILITY.</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-2" data-chapter="2" aria-labelledby="chapter-title-2">
+        <div class="chapter-stage">
+          <img class="testing-image" src="assets/testing.jpg" alt="Engineers testing Ingenuity’s deployment from beneath the Perseverance rover on Earth." loading="lazy">
+          <div class="stage-shade"></div>
+          <div class="chapter-heading"><span class="chapter-number mono">02 / BUILDING A MARS ON EARTH</span><h2 id="chapter-title-2">Before the leap,<br><em>the learning.</em></h2></div>
+          <div class="image-credit">NASA / JPL-Caltech · Deployment testing on Earth</div>
+        </div>
+        <div class="chapter-narrative">
+          <div class="story-step" data-speech="Before I met Mars, my engineers built a little Mars on Earth. A vacuum chamber at JPL recreated the thin carbon dioxide atmosphere. Roughly nine hundred little computer fans created airflow. A tether helped account for the difference in gravity.">
+            <div class="story-note"><span class="note-label">EARTH / JET PROPULSION LABORATORY</span><p>They built a little<br>Mars for me.</p><p class="note-secondary">A vacuum chamber. Thin carbon dioxide air. Roughly 900 computer fans. And a tether to help account for Mars’s weaker gravity.</p><div class="technical-rule"><svg class="icon"><use href="#spark"/></svg><span>Every impossible idea starts with a test.</span></div></div>
+          </div>
+          <div class="story-step" data-speech="My two rotors turned in opposite directions, at roughly twenty four hundred revolutions per minute in my original design. Sunlight charged my six batteries. Even after arriving on Mars, a software timing issue delayed my debut. My team sent a workaround. Then, I was ready.">
+            <div class="story-note"><span class="note-label">READY DOESN’T MEAN EASY</span><p>A little sunlight.<br>A lot of ingenuity.</p><p class="note-secondary">My solar panel charged six batteries. My two rotors spun in opposite directions, at roughly 2,400 rpm in the original design. When a software timing issue delayed my first flight, my team found a workaround.</p><button class="text-button" data-fact="engineering">Inside the engineering <span>↗</span></button></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-3" data-chapter="3" aria-labelledby="chapter-title-3">
+        <div class="chapter-stage">
+          <img src="assets/flight-thirteen.jpg" alt="Ingenuity captured in flight above the surface of Mars by Perseverance during Flight 13." loading="lazy">
+          <div class="stage-shade"></div>
+          <div class="chapter-heading"><span class="chapter-number mono">03 / KITTY HAWK ON MARS</span><h2 id="chapter-title-3">Three metres up.<br><em>A world changed.</em></h2></div>
+          <div class="image-credit">NASA / JPL-Caltech / ASU / MSSS · Photograph from Flight 13</div>
+        </div>
+        <div class="chapter-narrative">
+          <div class="story-step" data-speech="April nineteenth, twenty twenty one. I rose about three metres into the Martian air. I hovered, turned, and landed. The first powered, controlled flight on another planet. A tiny hop for me. A whole new sky for everyone.">
+            <div class="story-note"><span class="note-label">19 APRIL 2021 / FLIGHT 01</span><p>I rose. I hovered.<br>And history lifted off.</p><p class="note-secondary">About three metres above the ground, I achieved the first powered, controlled flight on another planet.</p><div class="first-flight"><span class="live-dot"></span> A WRIGHT BROTHERS MOMENT</div></div>
+          </div>
+          <div class="story-step" data-speech="I was not flying alone. Beneath my solar panel was a tiny piece of fabric from the Wright brothers’ nineteen oh three Flyer. More than a century after Kitty Hawk, that fabric was flying again. This time, on Mars. With radio signals taking minutes to reach me, I had to make my own flight decisions.">
+            <div class="story-note"><span class="note-label">1903 → 2021</span><p>A piece of the past.<br>A flight into the future.</p><p class="note-secondary">Beneath my solar panel, I carried fabric from the Wright brothers’ 1903 Flyer. And with no live pilot on Earth, I used my own computers, sensors, and navigation camera to find my way.</p><button class="text-button" data-fact="wright">The thread that connects us <span>↗</span></button></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-4" data-chapter="4" aria-labelledby="chapter-title-4">
+        <div class="chapter-stage">
+          <img src="assets/scouting.jpg" alt="Rocky Martian terrain photographed by Ingenuity from above." loading="lazy">
+          <div class="stage-shade"></div>
+          <div class="chapter-heading"><span class="chapter-number mono">04 / THE LITTLE HELICOPTER THAT KEPT GOING</span><h2 id="chapter-title-4">Five was the plan.<br><em>Curiosity had others.</em></h2></div>
+          <div class="image-credit">NASA / JPL-Caltech · Aerial image from Ingenuity</div>
+        </div>
+        <div class="chapter-narrative">
+          <div class="story-step" data-speech="They designed me for up to five flights over thirty Martian days. But I kept going. From a technology demonstration, I became a scout. My pictures helped the Perseverance team study the terrain and plan safer routes.">
+            <div class="story-note"><span class="note-label">FROM EXPERIMENT TO EXPLORER</span><p>I became another<br>pair of eyes.</p><p class="note-secondary">My aerial images helped Perseverance’s team assess interesting terrain and plan safer routes. I carried no dedicated science instrument — my gift was a different perspective.</p><button class="text-button" data-fact="scout">See the bigger picture <span>↗</span></button></div>
+          </div>
+          <div class="story-step" data-speech="Almost three years. Seventy two flights. Seventeen kilometres travelled. I spent about one hundred twenty eight point eight minutes in the air. My highest altitude was twenty four metres. The little experiment had become something much bigger.">
+            <div class="story-note"><span class="note-label">THE MISSION, BEYOND EXPECTATIONS</span><p>One small aircraft.<br>A remarkable journey.</p><p class="note-secondary">Across almost three years, I flew 17.0 km and spent 128.8 minutes in the air. My highest flight reached 24 m.</p><div class="note-stat"><span>72 <small>flights</small></span><span>ORIGINAL PLAN:<br>UP TO FIVE.</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-5" data-chapter="5" aria-labelledby="chapter-title-5">
+        <div class="chapter-stage">
+          <img src="assets/mars-flight.jpg" alt="An illustration recalling Ingenuity’s flights above Mars." loading="lazy">
+          <div class="stage-shade final-shade"></div>
+          <div class="chapter-heading"><span class="chapter-number mono">05 / ABANDONED, BUT NOT FORGOTTEN</span><h2 id="chapter-title-5">My rotors stopped.<br><em>My story didn’t.</em></h2></div>
+          <div class="image-credit">NASA / JPL-Caltech · Artist’s concept</div>
+        </div>
+        <div class="chapter-narrative">
+          <div class="story-step" data-speech="January eighteenth, twenty twenty four. My seventy second flight would be my last. Rotor blade damage during landing meant I could no longer fly. A week later, NASA announced the end of my mission. I am still here, in Jezero Crater.">
+            <div class="story-note"><span class="note-label">18 JANUARY 2024 / THE FINAL FLIGHT</span><p>Every flight has<br>a final landing.</p><p class="note-secondary">Rotor-blade damage during Flight 72 ended my flying days. NASA announced the mission’s end on January 25. I remain in Jezero Crater, on Mars.</p><button class="text-button" data-fact="legacy">What remains <span>↗</span></button></div>
+          </div>
+          <div class="story-step" data-speech="I was designed to fly five times. I flew seventy two. My journey is over, but the sky is no longer out of reach. What we learned together can help the next generation of explorers go farther.">
+            <div class="story-note quote-note"><svg class="icon"><use href="#spark"/></svg><blockquote>“My journey is over,<br>but the sky is no longer<br><em>out of reach.”</em></blockquote><p class="note-secondary">The lessons I left behind will help future explorers reach for new skies.</p><span class="quote-attribution">INGENUITY’S STORY · ORIGINAL NARRATION</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="mission-record section-wrap" id="record" aria-labelledby="record-title">
+      <div class="record-heading"><span class="section-kicker"><span class="little-cross">+</span> A SMALL MACHINE. AN EXTRAORDINARY LEGACY.</span><h2 id="record-title">The numbers.<br><em>The possibilities.</em></h2><p>A technology demonstration that became<br>an entirely new way to explore.</p></div>
+      <div class="record-grid"><div><span class="record-value">72</span><span class="record-label">FLIGHTS ON ANOTHER WORLD</span></div><div><span class="record-value">17.0 <small>km</small></span><span class="record-label">TOTAL DISTANCE FLOWN</span></div><div><span class="record-value">128.8 <small>min</small></span><span class="record-label">TOTAL TIME IN THE AIR</span></div><div><span class="record-value">24 <small>m</small></span><span class="record-label">HIGHEST ALTITUDE</span></div></div>
+      <p class="record-footnote">Final mission totals and records, not the specification of a typical flight. Source: NASA’s Ingenuity flight log.</p>
+    </section>
+
+    <section class="timeline-section section-wrap" aria-labelledby="timeline-title">
+      <div class="timeline-intro"><span class="section-kicker">THE FLIGHT PATH</span><h2 id="timeline-title">From Earth.<br><em>Into history.</em></h2></div>
+      <div class="timeline"><article><span class="timeline-dot"></span><time datetime="2020-07-30">30 JUL 2020</time><h3>A journey begins</h3><p>Launch aboard the Mars 2020 mission.</p></article><article><span class="timeline-dot"></span><time datetime="2021-02-18">18 FEB 2021</time><h3>A new world</h3><p>Perseverance lands in Jezero Crater.</p></article><article><span class="timeline-dot active-dot"></span><time datetime="2021-04-19">19 APR 2021</time><h3>The first flight</h3><p>Powered, controlled flight on another planet.</p></article><article><span class="timeline-dot"></span><time datetime="2024-01-18">18 JAN 2024</time><h3>A lasting legacy</h3><p>Flight 72. A final landing, a new beginning.</p></article></div>
+    </section>
+
+    <section class="epilogue section-wrap" aria-labelledby="epilogue-title">
+      <div class="epilogue-orbit" aria-hidden="true"></div><svg class="icon epilogue-star"><use href="#spark"/></svg>
+      <p class="section-kicker">FOR THE NEXT GENERATION OF EXPLORERS</p><h2 id="epilogue-title">What could <em>you</em> do<br>with an impossible idea?</h2><p>Keep asking. Keep testing. Keep looking up.</p><button class="button button-light" data-dialog="lab"><span>Step into the mission lab</span><span class="button-icon"><svg class="icon"><use href="#arrow"/></svg></span></button><a class="replay-link" href="#home">Back to the beginning ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#home"><svg class="icon brand-star"><use href="#spark"/></svg> AEVUM</a><p>Abandoned, but not forgotten.<br><span>An independent NASA-inspired storytelling project.</span></p><button class="text-button" data-dialog="sources">Sources & credits <span>↗</span></button></footer>
+
+  <aside class="story-progress" aria-label="Story progress"><a href="#chapter-1" aria-label="Chapter 1: The impossible idea" data-progress="1"><span>01</span></a><a href="#chapter-2" aria-label="Chapter 2: Building a Mars on Earth" data-progress="2"><span>02</span></a><a href="#chapter-3" aria-label="Chapter 3: Kitty Hawk on Mars" data-progress="3"><span>03</span></a><a href="#chapter-4" aria-label="Chapter 4: The little helicopter that kept going" data-progress="4"><span>04</span></a><a href="#chapter-5" aria-label="Chapter 5: Abandoned, but not forgotten" data-progress="5"><span>05</span></a></aside>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress-fill"></span></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="chapters-dialog" class="chapters-dialog" aria-labelledby="chapters-title"><div class="dialog-topline"><span class="section-kicker">YOUR JOURNEY</span><button class="close-button" data-close aria-label="Close chapters"><svg class="icon"><use href="#close"/></svg></button></div><h2 id="chapters-title">Every great leap<br>begins <em>somewhere.</em></h2><nav aria-label="Chapters"><a href="#chapter-1"><span>01</span><div>The impossible idea<small>A sky that said “you can’t.”</small></div><svg class="icon"><use href="#arrow"/></svg></a><a href="#chapter-2"><span>02</span><div>Building a Mars on Earth<small>Before the leap, the learning.</small></div><svg class="icon"><use href="#arrow"/></svg></a><a href="#chapter-3"><span>03</span><div>Kitty Hawk on Mars<small>Three metres up. A world changed.</small></div><svg class="icon"><use href="#arrow"/></svg></a><a href="#chapter-4"><span>04</span><div>The little helicopter that kept going<small>Five was the plan. Curiosity had others.</small></div><svg class="icon"><use href="#arrow"/></svg></a><a href="#chapter-5"><span>05</span><div>Abandoned, but not forgotten<small>My rotors stopped. My story didn’t.</small></div><svg class="icon"><use href="#arrow"/></svg></a></nav><span class="dialog-endnote">FIVE CHAPTERS. ONE EXTRAORDINARY LITTLE HELICOPTER.</span></dialog>
+
+  <dialog id="fact-dialog" class="content-dialog" aria-labelledby="fact-title"><div class="dialog-topline"><span class="section-kicker">A CLOSER LOOK / MISSION NOTES</span><button class="close-button" data-close aria-label="Close mission note"><svg class="icon"><use href="#close"/></svg></button></div><h2 id="fact-title"></h2><div id="fact-body"></div><button class="button button-outline" data-close>Continue the story <svg class="icon"><use href="#arrow"/></svg></button></dialog>
+
+  <dialog id="sources-dialog" class="content-dialog sources-dialog" aria-labelledby="sources-title"><div class="dialog-topline"><span class="section-kicker">THE SCIENCE BEHIND THE STORY</span><button class="close-button" data-close aria-label="Close sources"><svg class="icon"><use href="#close"/></svg></button></div><h2 id="sources-title">Real exploration.<br><em>A story worth telling.</em></h2><p>This is Team AEVUM’s illustrated story of NASA’s Ingenuity Mars Helicopter, inspired by the challenge theme “Abandoned, but Not Forgotten.” It adapts the supplied project document into a first-person narrative.</p><p>The voice of Ingenuity is original storytelling, not a NASA quotation. Artist’s concepts and real mission photographs are identified in their captions. This independent project is not affiliated with or endorsed by NASA.</p><h3>Explore the original sources</h3><div class="source-links"><a href="https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/" target="_blank" rel="noopener noreferrer">NASA — Ingenuity mission overview <span>↗</span></a><a href="https://science.nasa.gov/wp-content/uploads/2024/06/ingenuity-helicopter-flight-log.pdf" target="_blank" rel="noopener noreferrer">NASA — Ingenuity flight log <span>↗</span></a><a href="https://www.jpl.nasa.gov/news/nasas-ingenuity-mars-helicopter-succeeds-in-historic-first-flight/" target="_blank" rel="noopener noreferrer">JPL — The historic first flight <span>↗</span></a><a href="https://www.jpl.nasa.gov/news/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/" target="_blank" rel="noopener noreferrer">JPL — The mission’s final chapter <span>↗</span></a><a href="https://www.jpl.nasa.gov/images/pia24466-ingenuity-helicopter-on-mars-illustration/" target="_blank" rel="noopener noreferrer">NASA / JPL-Caltech — Cover artwork <span>↗</span></a></div><a class="button button-outline" href="martian-heir-source.zip" download>Download HTML, CSS &amp; JavaScript <svg class="icon"><use href="#arrow"/></svg></a><h3>Built on a shared idea</h3><p class="credit-text">Story & project: Team AEVUM. Visual references: <a href="https://a-solar-tale.netlify.app/" target="_blank" rel="noopener noreferrer">A Solar Tale</a>. Story material: <a href="https://docs.google.com/document/d/1y-24_gzLaOtt92EUvTHfOLDWPA-D1L79viaGSHX0GF4/edit" target="_blank" rel="noopener noreferrer">the project document</a>. Imagery: NASA / JPL-Caltech; Flight 13 image: NASA / JPL-Caltech / ASU / MSSS. Fonts: DM Sans & Instrument Serif (SIL Open Font License).</p><p class="credit-text">Listen uses your browser’s available text-to-speech voice. It is optional and may be unavailable on some devices.</p></dialog>
+
+  <dialog id="lab-dialog" class="content-dialog lab-dialog" aria-labelledby="lab-title"><div class="dialog-topline"><span class="section-kicker">MISSION LAB / TRY IT YOURSELF</span><button class="close-button" data-close aria-label="Close mission lab"><svg class="icon"><use href="#close"/></svg></button></div><h2 id="lab-title">A little <em>curiosity.</em><br>A new perspective.</h2><div class="lab-tabs" role="tablist" aria-label="Mission activities"><button id="weight-tab" role="tab" aria-selected="true" aria-controls="weight-panel" tabindex="0">01 / Mass & weight</button><button id="engineer-tab" role="tab" aria-selected="false" aria-controls="engineer-panel" tabindex="-1">02 / Think like an engineer</button></div><section id="weight-panel" role="tabpanel" aria-labelledby="weight-tab"><p>Your mass stays the same on Mars. Your weight changes with gravity. Move the slider to compare.</p><label class="slider-label" for="mass">Mass <output id="mass-value" for="mass">1.8 kg</output></label><input id="mass" type="range" min="0.5" max="10" step="0.1" value="1.8"><div class="gravity-results"><div><svg class="icon"><use href="#globe"/></svg><span>ON EARTH</span><strong id="earth-weight">17.7 <small>N</small></strong><p>Gravity: 9.81 m/s²</p></div><div class="mars-result"><span class="mars-planet" aria-hidden="true"></span><span>ON MARS</span><strong id="mars-weight">6.7 <small>N</small></strong><p>Gravity: 3.71 m/s²</p></div></div><p class="lab-explanation">Same mass. About 38% of the weight. Weight is a force, measured here in newtons (N). Ingenuity’s mass is about 1.8 kg wherever it goes.</p></section><section id="engineer-panel" role="tabpanel" aria-labelledby="engineer-tab" hidden><form id="engineer-form"><fieldset><legend>There is very little air on Mars. Which design choice would help a helicopter generate lift?</legend><label class="quiz-option"><input type="radio" name="design" value="heavy" required><span>A heavier body</span></label><label class="quiz-option"><input type="radio" name="design" value="rotors"><span>Large, very fast-spinning rotors</span></label><label class="quiz-option"><input type="radio" name="design" value="pilot"><span>A pilot steering live from Earth</span></label></fieldset><button class="button button-light" type="submit">Test your idea <svg class="icon"><use href="#arrow"/></svg></button><p id="quiz-feedback" class="quiz-feedback" role="status" aria-live="polite"></p></form><p class="lab-explanation">Classroom challenge: make a paper helicopter, then change one thing — blade length or mass. Drop it from the same safe height. What changes? Predict, test, observe, repeat.</p></section></dialog>
+</body>
+</html>
