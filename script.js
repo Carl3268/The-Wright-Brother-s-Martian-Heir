@@ -348,7 +348,7 @@ const translationCatalog = {
       "en": "Mum,"
     },
     "t087": {
-      "vi": "mẹ còn nghe tớ không?",
+      "vi": "mẹ còn nghe con không?",
       "en": "can you still hear me?"
     },
     "t088": {
@@ -356,7 +356,7 @@ const translationCatalog = {
       "en": "Winter arrived, and the cold nights grew longer. One night, my battery ran so low that my computer switched off. When sunshine woke me up, my clock had reset. I hadn’t forgotten my friends. I had only forgotten the time of our appointment."
     },
     "t089": {
-      "vi": "Ở Trái Đất, các kỹ sư lo lắng và nhờ mẹ Perseverance lắng nghe lâu hơn. Rồi tín hiệu của tớ xuất hiện. Mẹ ơi, tớ đây! Chúng tớ đã tìm lại được nhau.",
+      "vi": "Ở Trái Đất, các kỹ sư lo lắng và nhờ mẹ Perseverance lắng nghe lâu hơn. Rồi tín hiệu của tớ xuất hiện. Mẹ ơi, con đây! Chúng tớ đã tìm lại được nhau.",
       "en": "Back on Earth, my worried engineers asked Mum Perseverance to listen for longer. Then my signal appeared. Mum, I’m here! We had found each other again."
     },
     "t090": {
