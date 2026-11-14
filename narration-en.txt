@@ -1,0 +1,49 @@
+MARTIAN HEIR — ENGLISH NARRATION
+Team AEVUM · adapted from the Detailed content tab of the project document.
+
+
+CHAPTER 1: A DREAM OF FLIGHT ON THE RED PLANET
+
+Scene 1 — Narrator
+April nineteenth, twenty twenty-one. At JPL mission control, everyone was waiting for a message from Mars. Then MiMi Aung confirmed it: humans had flown a helicopter on another planet. Tiny against the great red landscape, Ingenuity had lifted off the ground. But to understand that moment, let’s turn back the clock together.
+
+Scene 2 — Narrator
+Let’s go back to February, twenty twenty-one. After about seven months in space, the Perseverance rover arrived at Mars with Ingenuity tucked underneath. The thin air made slowing down very difficult. After the heat shield and parachute had done their jobs, a rocket-powered landing stage slowed the rover further. Then three cables gently lowered it to the ground. This extraordinary manoeuvre was called Sky Crane.
+
+Scene 3 — Ingenuity
+Hello, friend! I’m Ingenuity. Do you think I look a little unusual? A small box, four spindly legs, and spinning blades above my head. Beside my car-sized mum, Perseverance, I’m tiny: just one point eight kilograms. Bringing a helicopter to Mars had once seemed like a very risky idea. But my engineers gave me a chance. Mum placed me on the ground and rolled away. From that moment, I had to learn to fly on my own.
+
+CHAPTER 2: TWO EYES IN THE COLD NIGHT
+
+Scene 4 — Ingenuity
+Have you ever missed home when you were far away? I’m so far from Earth that even a radio message takes many minutes to get there. At night, it can be around minus ninety degrees Celsius. I have to keep my little electronic parts warm. Luckily, Mum Perseverance is nearby. She passes my messages back to the engineers on Earth. I’m a long way from home, but I’m not completely alone.
+
+Scene 5 — Ingenuity
+I see the world through two very different eyes. A black-and-white eye looks down at the ground to help me work out how I’m moving. My colour eye saves beautiful views for everyone back on Earth. Can you see those rocks? To you, they might just be rocks. To me, they are little landmarks showing me the way.
+
+Scene 6 — Ingenuity
+Once, about fifty-four seconds after takeoff, one of my navigation pictures went missing. The pictures that followed had the wrong time labels. I thought I was moving differently, so I kept trying to correct myself. I rocked back and forth, sometimes tilting more than twenty degrees. Phew! My flight-control system helped me land safely. Afterwards, the engineers worked out what had happened. One wobble doesn’t have to mean the end of a journey.
+
+CHAPTER 3: FINDING EACH OTHER AGAIN
+
+Scene 7 — Ingenuity
+What do you have for breakfast? Mine is sunshine! But then red dust swept in and clouded the sky. During one storm, the sunlight reaching my solar panel dropped by about eighteen percent. Less sunlight meant less energy. My engineers let me rest, checked everything, and waited for better weather. It turns out that knowing when to wait can help you go further.
+
+Scene 8 — Ingenuity
+Winter arrived, and the cold nights grew longer. One night, my battery ran so low that my computer switched off. When sunshine woke me up, my clock had reset. I hadn’t forgotten my friends. I had only forgotten the time of our appointment. Back on Earth, my worried engineers asked Mum Perseverance to listen for longer. Then my signal appeared. Mum, I’m here! We had found each other again.
+
+CHAPTER 4: ANOTHER WAY TO FLY
+
+Scene 9 — Ingenuity
+The cold also stopped one of my tilt sensors from working. Without it, how would I know which way I was leaning before takeoff? Luckily, I had another set of sensors, called an IMU. My engineers changed the software so I could use its measurements instead. And my computer brain uses technology related to smartphone chips. Familiar things from Earth, put together with care, can do extraordinary things.
+
+Scene 10 — Ingenuity
+At first, everyone only hoped I would manage up to five test flights. But I kept going. As Mum Perseverance travelled below, I took pictures from above so the team could see places that were hard to study from the ground. I didn’t carry a dedicated science instrument, but I could bring back a new perspective. A little experiment had become Mum’s scouting friend.
+
+CHAPTER 5: THE WINGS REST. THE DREAM FLIES ON.
+
+Scene 11 — Ingenuity
+January eighteenth, twenty twenty-four. I took off for the seventy-second time. Below me was a sandy area with very few landmarks, making navigation difficult. After that landing, my thin, lightweight rotor blades were damaged. In our story, they were as delicate as the wafer of an ice-cream cone. I couldn’t fly any more. Of course I felt sad. But that didn’t erase all the journeys I had already made.
+
+Scene 12 — Ingenuity
+My engineers prepared me to stay as a little stationary testbed, recording information right where I stood. I would no longer fly alongside Mum, but what I had learned could still help future explorers. Almost three years. Seventy-two flights. Seventeen kilometres. Once, I was only a question: could a helicopter fly here? Now we know the answer. I’ll stay here on Mars, friend. You take your dream a little further.
