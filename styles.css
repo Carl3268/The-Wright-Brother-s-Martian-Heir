@@ -345,3 +345,28 @@ html[lang="en"] .illustration-caption>p{font-size:clamp(27px,2.8vw,40px)}
   body.book-edition { padding-bottom:calc(140px + env(safe-area-inset-bottom)); }
   .toast { bottom:calc(140px + env(safe-area-inset-bottom)); }
 }
+/* The title cover uses the same full width as the open book. */
+@media screen {
+  .book-reader .book-spread.is-cover,.book-reader .book-cover { width:100%; max-width:none; }
+  .book-reader .cover-content { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr); grid-template-rows:auto auto 1fr auto; align-items:center; justify-items:start; text-align:left; min-height:calc(100vh - 238px); min-height:calc(100dvh - 238px); padding:clamp(30px,3.5vw,70px) clamp(40px,4.5vw,110px); gap:16px 6vw; }
+  .cover-series { grid-column:1/-1; grid-row:1; }
+  .cover-ornament { display:none; }
+  .cover-subtitle { grid-column:1; grid-row:2; }
+  .book-reader .cover-content h1 { grid-column:1; grid-row:3; margin:0; font-size:clamp(145px,13vw,300px); line-height:.9; letter-spacing:-.025em; }
+  .book-reader .cover-description { grid-column:2; grid-row:3; align-self:center; margin:0 0 70px; font-size:clamp(20px,1.5vw,30px); line-height:1.8; max-width:25ch; }
+  .book-reader .cover-open { grid-column:2; grid-row:3; align-self:end; margin:0; min-height:54px; font-size:17px; padding:14px 25px; }
+  .book-reader .cover-signature { grid-column:2; grid-row:4; margin:0; padding-top:16px; font-size:12px; }
+  .cover-art { object-position:center 38%; }
+  .cover-shade { background:linear-gradient(90deg,#2c202bd9,#39253060 54%,#30202b96),linear-gradient(0deg,#2c1d27bf,transparent 70%); }
+  .book-reader .book-cover .cover-series { font-size:13px!important; }
+  .cover-frame { inset:20px 23px 20px 34px; }
+}
+@media screen and (max-width:900px), screen and (max-width:1180px) and (orientation:portrait), screen and (max-height:520px) and (pointer:coarse) {
+  .book-reader .cover-content { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; min-height:calc(100svh - 230px); padding:32px clamp(25px,4vw,48px) 30px 33px; gap:0; }
+  .book-reader .book-cover .cover-series { font-size:11px!important; max-width:40ch; }
+  .cover-subtitle { margin-top:23px; }
+  .book-reader .cover-content h1 { font-size:clamp(92px,29vw,240px); margin-top:22px; line-height:.94; }
+  .book-reader .cover-description { font-size:clamp(18px,2.5vw,25px); margin:24px 0 0; }
+  .book-reader .cover-open { align-self:center; margin-top:26px; min-height:52px; font-size:16px; }
+  .book-reader .cover-signature { margin-top:28px; padding:0; font-size:11px; }
+}
