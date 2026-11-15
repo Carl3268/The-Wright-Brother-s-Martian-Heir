@@ -8,13 +8,15 @@ Follow a little helicopter’s journey from Earth to its extraordinary flights o
 
 ## Features
 
-- English and Vietnamese editions.
+- English and Vietnamese editions: two chapters, 18 illustrated story spreads and a conclusion.
 - Illustrated pages with book-style page turns.
 - Responsive layouts for desktop, tablets and phones.
 - MP3 narration with browser-voice fallback.
 - Chapter navigation, mission notes and learning activities.
 
-Some English recordings use different wording from the displayed text. Select a browser voice to hear the page text instead.
+The story text has been edited in both languages for natural wording and scientific accuracy. All 23 supplied MP3s are preserved. Where an older recording differs materially from the revised scene, the device voice reads the updated text by default; the original recording remains available in **Voice**. The Vietnamese sensor recording is available there as a bonus.
+
+See `CONTENT-NOTES.md` for the factual edits and `AUDIO-MAPPING.csv` for the page-to-audio mapping.
 
 ## Built With
 

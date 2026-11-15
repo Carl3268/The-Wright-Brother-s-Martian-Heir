@@ -1,49 +1,58 @@
-MARTIAN HEIR — ENGLISH NARRATION
-Team AEVUM · adapted from the Detailed content tab of the project document.
+MARTIAN HEIR — AEVUM
+ENGLISH NARRATION
 
+01 · The room erupted in cheers.
+On April 19, 2021, at JPL mission control, Ingenuity project manager MiMi Aung leaped from her chair. After an anxious wait, the data confirmed what the team had hoped for. “We can now say that human beings have flown a rotorcraft on another planet.”
 
-CHAPTER 1: A DREAM OF FLIGHT ON THE RED PLANET
+02 · One tiny helicopter. A place in history.
+As she spoke, data had brought news from a world nearly 300 million kilometers away: a tiny helicopter named Ingenuity had hovered above the Martian surface, in the silent red sky.
 
-Scene 1 — Narrator
-April nineteenth, twenty twenty-one. At JPL mission control, everyone was waiting for a message from Mars. Then MiMi Aung confirmed it: humans had flown a helicopter on another planet. Tiny against the great red landscape, Ingenuity had lifted off the ground. But to understand that moment, let’s turn back the clock together.
+03 · Two months earlier…
+To understand that moment, let’s go back to the day Ingenuity arrived on Mars. February 18, 2021. After about seven months traveling from Earth, Perseverance and its little companion reached the Red Planet. The first flight was still to come.
 
-Scene 2 — Narrator
-Let’s go back to February, twenty twenty-one. After about seven months in space, the Perseverance rover arrived at Mars with Ingenuity tucked underneath. The thin air made slowing down very difficult. After the heat shield and parachute had done their jobs, a rocket-powered landing stage slowed the rover further. Then three cables gently lowered it to the ground. This extraordinary manoeuvre was called Sky Crane.
+04 · An unusual place to travel.
+Tucked away beneath the belly of the Perseverance rover, Ingenuity arrived on Mars as an attached payload. No helicopter had ever been delivered to the surface of another planet before. Throughout the journey, Perseverance carried and protected the little helicopter. Before Ingenuity could spread its wings, they both had to survive the landing.
 
-Scene 3 — Ingenuity
-Hello, friend! I’m Ingenuity. Do you think I look a little unusual? A small box, four spindly legs, and spinning blades above my head. Beside my car-sized mum, Perseverance, I’m tiny: just one point eight kilograms. Bringing a helicopter to Mars had once seemed like a very risky idea. But my engineers gave me a chance. Mum placed me on the ground and rolled away. From that moment, I had to learn to fly on my own.
+05 · Three cables. One gentle touchdown.
+Mars’ thin air meant a parachute alone could not safely land the roughly one-ton rover. After the parachute had done its job, a rocket-powered descent stage slowed the rover further. Then three nylon cables gently lowered Perseverance onto the red ground, with Ingenuity still attached underneath. This sky crane maneuver kept the rocket engines above the rover, reducing the dust and debris kicked up around it.
 
-CHAPTER 2: TWO EYES IN THE COLD NIGHT
+06 · Success is never assured.
+“Success is never assured, and that’s especially true when we’re trying to land the biggest, heaviest, and most complicated rover we’ve ever built to the most dangerous site we’ve ever attempted to land on.” — Allen Chen, Mars 2020 entry, descent, and landing lead.
 
-Scene 4 — Ingenuity
-Have you ever missed home when you were far away? I’m so far from Earth that even a radio message takes many minutes to get there. At night, it can be around minus ninety degrees Celsius. I have to keep my little electronic parts warm. Luckily, Mum Perseverance is nearby. She passes my messages back to the engineers on Earth. I’m a long way from home, but I’m not completely alone.
+07 · A big rover. A tiny companion.
+Perseverance was a six-wheeled explorer weighing about one metric ton, nearly the size of a car, built to endure the rough ground of Mars. Beside its “mother,” Ingenuity looked like a lunchbox on four slender legs and had a mass of just 1.8 kilograms. The little helicopter had a different challenge: to fly in the very thin Martian atmosphere.
 
-Scene 5 — Ingenuity
-I see the world through two very different eyes. A black-and-white eye looks down at the ground to help me work out how I’m moving. My colour eye saves beautiful views for everyone back on Earth. Can you see those rocks? To you, they might just be rocks. To me, they are little landmarks showing me the way.
+08 · Far from home. Still heard.
+Every message between Ingenuity and Earth had to pass through its “mother,” Perseverance. The rover received the helicopter’s signals and relayed them home through the mission’s communications network. Depending on the positions of the two planets, a one-way signal could take up to about 22 minutes. Ingenuity could not be flown with a joystick from Earth: once airborne, it had to follow its instructions on its own.
 
-Scene 6 — Ingenuity
-Once, about fifty-four seconds after takeoff, one of my navigation pictures went missing. The pictures that followed had the wrong time labels. I thought I was moving differently, so I kept trying to correct myself. I rocked back and forth, sometimes tilting more than twenty degrees. Phew! My flight-control system helped me land safely. Afterwards, the engineers worked out what had happened. One wobble doesn’t have to mean the end of a journey.
+09 · I did not begin my life as a hero.
+Hello, friend. I’m Ingenuity. Before I ever flew, I was an idea that raised plenty of questions. Was bringing a helicopter to Mars too much of a risk? Some worried that this little experiment could take time and attention away from Perseverance’s important science mission. In my own story, I might call myself an “uninvited guest.” But my engineers believed I deserved a chance.
 
-CHAPTER 3: FINDING EACH OTHER AGAIN
+10 · When the Sun goes to sleep.
+Have you ever missed home when you were far away? I’m so far away that even a message has to cross a vast stretch of space. At night, temperatures where I live can fall to around −90°C — much colder than your home freezer! The thin atmosphere holds heat poorly. Even by day, sunlit ground can be much warmer than the air above it. When night falls, I have to keep my little electronic parts warm. Luckily, Mum Perseverance is nearby to pass my messages home.
 
-Scene 7 — Ingenuity
-What do you have for breakfast? Mine is sunshine! But then red dust swept in and clouded the sky. During one storm, the sunlight reaching my solar panel dropped by about eighteen percent. Less sunlight meant less energy. My engineers let me rest, checked everything, and waited for better weather. It turns out that knowing when to wait can help you go further.
+11 · One eye to navigate. One to share the view.
+I have two eyes: a black-and-white one that watches the ground to track my speed and direction, and a color one that sends Mars’ beauty home to Earth. Rocks and patterns beneath me are my landmarks. To you, they might just be scenery. To me, they help answer a very important question: “How am I moving?”
 
-Scene 8 — Ingenuity
-Winter arrived, and the cold nights grew longer. One night, my battery ran so low that my computer switched off. When sunshine woke me up, my clock had reset. I hadn’t forgotten my friends. I had only forgotten the time of our appointment. Back on Earth, my worried engineers asked Mum Perseverance to listen for longer. Then my signal appeared. Mum, I’m here! We had found each other again.
+12 · One missed beat in midair.
+Once, about 54 seconds after takeoff, a glitch interrupted the images from my navigation camera. One image was lost, and the next ones arrived with incorrect timestamps. Suddenly, I was misjudging my own movement. I kept trying to correct myself, rocking and tilting more than 20 degrees in midair. What a scare! Fortunately, my control system had enough safety margin to keep me flying until I landed safely.
 
-CHAPTER 4: ANOTHER WAY TO FLY
+13 · Some days, courage means waiting.
+What do you have for breakfast? I have sunlight. But then a dust storm swept in and dimmed the sky. During the January 2022 storm, the sunlight reaching my solar panel dropped by about 18%. Less sunlight meant less energy, and I still needed to stay warm overnight. My engineers postponed my flight, checked conditions, and waited for better weather. Moving forward does not always mean taking off right away.
 
-Scene 9 — Ingenuity
-The cold also stopped one of my tilt sensors from working. Without it, how would I know which way I was leaning before takeoff? Luckily, I had another set of sensors, called an IMU. My engineers changed the software so I could use its measurements instead. And my computer brain uses technology related to smartphone chips. Familiar things from Earth, put together with care, can do extraordinary things.
+14 · Flying is only part of the story.
+You might think all my energy goes into flying. In fact, surviving the freezing night takes a large share of my battery power. My electronics have to stay warm enough for me to work again the next day. The energy needed for flying and heating changes with the weather, the season, and the flight plan. Before each flight, my engineers have to make sure I can still get through the next night.
 
-Scene 10 — Ingenuity
-At first, everyone only hoped I would manage up to five test flights. But I kept going. As Mum Perseverance travelled below, I took pictures from above so the team could see places that were hard to study from the ground. I didn’t carry a dedicated science instrument, but I could bring back a new perspective. A little experiment had become Mum’s scouting friend.
+15 · I had only forgotten the time.
+Then winter came. Longer nights and less sunlight left my battery unable to keep my computer running through the night. I shut down in the cold, as if I had fallen asleep. When the Sun woke me the next morning, my clock had reset. I had not forgotten my friends; I had lost track of when to contact Perseverance. After an anxious wait, my engineers asked Mum to listen for longer — and we found each other again.
 
-CHAPTER 5: THE WINGS REST. THE DREAM FLIES ON.
+16 · The day my wings came to rest.
+Then came my final flight. Below me lay smooth sand ripples with too few landmarks for my camera to track. Without a clear sense of my sideways motion, I struggled to land safely. In the engineers’ most likely reconstruction, I hit the slope of a sand ripple hard. The sudden pitching and rolling overloaded my spinning blades and broke them. As fragile as ice-cream cones in my story, those wings could no longer carry me into the sky.
 
-Scene 11 — Ingenuity
-January eighteenth, twenty twenty-four. I took off for the seventy-second time. Below me was a sandy area with very few landmarks, making navigation difficult. After that landing, my thin, lightweight rotor blades were damaged. In our story, they were as delicate as the wafer of an ice-cream cone. I couldn’t fly any more. Of course I felt sad. But that didn’t erase all the journeys I had already made.
+17 · Broken wings. Lessons that remain.
+Though I could no longer fly, I survived the landing and reestablished contact with Perseverance. Before their final shift with me in April 2024, my engineers sent one last software update. They prepared me to become a stationary testbed: taking pictures, recording temperatures and equipment performance, and storing data locally after the rover moved out of radio range. Perhaps a future explorer will one day find those gifts of data.
 
-Scene 12 — Ingenuity
-My engineers prepared me to stay as a little stationary testbed, recording information right where I stood. I would no longer fly alongside Mum, but what I had learned could still help future explorers. Almost three years. Seventy-two flights. Seventeen kilometres. Once, I was only a question: could a helicopter fly here? Now we know the answer. I’ll stay here on Mars, friend. You take your dream a little further.
+18 · Five planned flights. Seventy-two takeoffs.
+Looking back on my journey, I can hardly believe it. I was meant to make up to five test flights. Instead, over almost three years, I took off 72 times and traveled about 17 kilometers on another world. I began as a doubted experiment and became a scouting eye, helping Perseverance’s team see the terrain ahead. My wings may have stopped, but what we learned is opening the way for future flights. And you — where would you like your dream to take you?
+
+Note: The revised narration may differ from the original supplied MP3s.

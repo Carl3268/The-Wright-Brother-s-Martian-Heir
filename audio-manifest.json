@@ -1,69 +1,97 @@
 {
-  "base_commit": "f1420ef",
+  "base_commit": "d7f9dc7",
   "vi": {
     "chapter-1": [
       "assets/audio/vi/clip-02.mp3"
     ],
-    "scene-2": [
+    "arrival": [
       "assets/audio/vi/clip-03.mp3"
     ],
-    "scene-3": [
+    "uninvited-guest": [
       "assets/audio/vi/clip-01.mp3"
     ],
     "chapter-2": [
       "assets/audio/vi/clip-04.mp3"
     ],
-    "scene-5": [
+    "two-eyes": [
       "assets/audio/vi/clip-05.mp3"
     ],
-    "scene-6": [
+    "flight-six": [
       "assets/audio/vi/clip-06.mp3"
     ],
-    "chapter-3": [
+    "dust-storm": [
       "assets/audio/vi/clip-07.mp3"
     ],
-    "scene-8": [
+    "winter": [
       "assets/audio/vi/clip-08.mp3"
-    ],
-    "chapter-4": [
-      "assets/audio/vi/clip-09.mp3"
     ]
   },
   "en": {
-    "chapter-1": [
+    "scene-2": [
       "assets/audio/en/clip-02.mp3"
     ],
-    "scene-2": [
-      "assets/audio/en/clip-01.mp3",
-      "assets/audio/en/clip-03.mp3",
+    "arrival": [
+      "assets/audio/en/clip-01.mp3"
+    ],
+    "sky-crane": [
+      "assets/audio/en/clip-03.mp3"
+    ],
+    "landing-quote": [
       "assets/audio/en/clip-04.mp3"
     ],
-    "scene-3": [
-      "assets/audio/en/clip-05.mp3",
+    "mother-and-child": [
+      "assets/audio/en/clip-05.mp3"
+    ],
+    "messages-home": [
       "assets/audio/en/clip-06.mp3"
     ],
-    "chapter-2": [
-      "assets/audio/en/clip-11.mp3"
-    ],
-    "scene-5": [
+    "two-eyes": [
       "assets/audio/en/clip-07.mp3"
     ],
-    "scene-6": [
+    "flight-six": [
       "assets/audio/en/clip-08.mp3"
     ],
-    "chapter-3": [
+    "dust-storm": [
       "assets/audio/en/clip-09.mp3"
     ],
-    "scene-8": [
+    "keeping-warm": [
+      "assets/audio/en/clip-11.mp3"
+    ],
+    "winter": [
       "assets/audio/en/clip-14.mp3"
     ],
-    "chapter-5": [
+    "final-flight": [
       "assets/audio/en/clip-10.mp3"
     ],
-    "scene-12": [
-      "assets/audio/en/clip-12.mp3",
+    "still-here": [
+      "assets/audio/en/clip-12.mp3"
+    ],
+    "legacy": [
       "assets/audio/en/clip-13.mp3"
     ]
   },
-  "notes": "English recordings use an alternate script and are not word-for-word matches. Missing scenes use browser narration. All original audio bytes are preserved."
+  "draft_recordings": {
+    "vi": {
+      "arrival": true,
+      "uninvited-guest": true
+    },
+    "en": {
+      "sky-crane": true,
+      "flight-six": true,
+      "dust-storm": true,
+      "keeping-warm": true,
+      "winter": true,
+      "final-flight": true,
+      "still-here": true,
+      "legacy": true
+    }
+  },
+  "extras": [
+    {
+      "language": "vi",
+      "file": "assets/audio/vi/clip-09.mp3",
+      "description": "Sensor-failure scene from the earlier script; available in voice settings."
+    }
+  ],
+  "notes": "Default device narration reads the revised page on scenes with materially different earlier recordings. Original MP3s remain selectable in Voice; all 23 supplied files are preserved byte-for-byte."
 }

@@ -28,12 +28,12 @@ const translationCatalog = {
       "en": "STORIES BEYOND EARTH"
     },
     "t007": {
-      "vi": "MỘT CUỐN SÁCH NHỎ · NĂM CHƯƠNG",
-      "en": "ONE LITTLE BOOK · FIVE CHAPTERS"
+      "vi": "MỘT CUỐN SÁCH NHỎ · HAI CHƯƠNG",
+      "en": "ONE LITTLE BOOK · TWO CHAPTERS"
     },
     "t008": {
-      "vi": "MỘT CÂU CHUYỆN TỪ SAO HỎA",
-      "en": "A STORY FROM MARS"
+      "vi": "Aevum · MỘT CÂU CHUYỆN TỪ SAO HỎA",
+      "en": "Aevum · A STORY FROM MARS"
     },
     "t009": {
       "vi": "NGƯỜI KẾ THỪA GIẤC MƠ BAY",
@@ -52,8 +52,8 @@ const translationCatalog = {
       "en": "Open the book"
     },
     "t013": {
-      "vi": "",
-      "en": ""
+      "vi": "BY Aevum",
+      "en": "BY Aevum"
     },
     "t014": {
       "vi": "GỬI NHỮNG NGƯỜI BẠN THÍCH NGƯỚC NHÌN BẦU TRỜI",
@@ -101,11 +101,11 @@ const translationCatalog = {
     },
     "t025": {
       "vi": "Giấc mơ bay trên hành tinh đỏ",
-      "en": "A dream of flight on the Red Planet"
+      "en": "The Dream of Flight on the Red Planet"
     },
     "t026": {
-      "vi": "Đôi mắt giữa đêm lạnh",
-      "en": "Two eyes in the cold night"
+      "vi": "Hành trình vượt giới hạn trên Sao Hỏa",
+      "en": "Beyond the Limits on Mars"
     },
     "t027": {
       "vi": "Những ngày tìm lại nhau",
@@ -164,8 +164,8 @@ const translationCatalog = {
       "en": "How did a little helicopter get all the way here?"
     },
     "t041": {
-      "vi": "",
-      "en": ""
+      "vi": "NHÓM Aevum",
+      "en": "TEAM Aevum"
     },
     "t042": {
       "vi": "CHƯƠNG 01",
@@ -604,8 +604,8 @@ const translationCatalog = {
       "en": "My flying stopped. My dream didn’t."
     },
     "t151": {
-      "vi": "NĂM CHƯƠNG NHỎ. MỘT NGƯỜI BẠN THẬT PHI THƯỜNG.",
-      "en": "FIVE LITTLE CHAPTERS. ONE EXTRAORDINARY LITTLE FRIEND."
+      "vi": "HAI CHƯƠNG. MỘT NGƯỜI BẠN THẬT PHI THƯỜNG.",
+      "en": "TWO CHAPTERS. ONE EXTRAORDINARY LITTLE FRIEND."
     },
     "t152": {
       "vi": "MÌNH CÙNG TÌM HIỂU",
@@ -628,20 +628,20 @@ const translationCatalog = {
       "en": "A lot of real discovery."
     },
     "t157": {
-      "vi": "Câu chuyện của bọn mình được tạo nên từ các nhật ký bay và dữ liệu của Ingenuity OwO",
-      "en": "Our story is created using Ingenuity's flights logs and datas OwO"
+      "vi": "Câu chuyện của nhóm được xây dựng từ nhật ký bay và dữ liệu nhiệm vụ của Ingenuity.",
+      "en": "Our story draws on Ingenuity’s flight logs and mission data."
     },
     "t158": {
       "vi": "“Nội dung chi tiết”",
       "en": "“Nội dung chi tiết” (Detailed content)"
     },
     "t159": {
-      "vi": "trong tài liệu dự án: mở đầu bằng người dẫn chuyện, rồi để Ingenuity tự kể với cậu bằng giọng “tớ–cậu”. Các tình huống được chia thành năm chương trong một cuốn sách ảnh có thể lật trang.",
-      "en": "tab of the project document. It begins with a narrator, then lets Ingenuity speak directly to you as a friend. The story is arranged into five chapters in a page-turning picture book."
+      "vi": "Câu chuyện có hai chương, mở đầu bằng người dẫn chuyện rồi chuyển sang lời tự kể của Ingenuity.",
+      "en": "The story has two chapters, beginning with a narrator before switching to Ingenuity’s own voice."
     },
     "t160": {
-      "vi": "Cách gọi Perseverance là “mẹ”, cảm xúc của Ingenuity và các lời tự bạch là biện pháp kể chuyện, không phải lời trích dẫn NASA. Trích dẫn MiMi Aung ở đầu truyện được giữ bằng tiếng Anh; câu chuyện và lời đọc có cả tiếng Việt lẫn tiếng Anh.",
-      "en": "Calling Perseverance “Mum”, Ingenuity’s feelings, and its first-person reflections are storytelling devices, not NASA quotations. MiMi Aung’s opening quote remains in English. The surrounding story and narration are available in both Vietnamese and English."
+      "vi": "Cách gọi Perseverance là “mẹ”, cảm xúc và lời tự bạch của Ingenuity là biện pháp nhân hóa. Hai câu trích dẫn có ghi tên người nói; bản tiếng Việt là bản dịch. Các bản thu từ bản nháp có thể khác nội dung đã hiệu đính trên trang.",
+      "en": "Calling Perseverance “Mum,” along with Ingenuity’s feelings and first-person voice, is personification. The two quotations name their speakers; the Vietnamese edition translates them. Recordings from the earlier draft may differ from the revised page text."
     },
     "t161": {
       "vi": "Cùng xem những nguồn gốc nhé",
@@ -700,8 +700,8 @@ const translationCatalog = {
       "en": ". Images: NASA / JPL-Caltech, with additional ASU / MSSS credits where applicable, including images from the project’s “Ảnh” (Images) tab. Flight 13 photographs used as illustrations are clearly captioned. Logo: a vector recreation of the team’s supplied image. Fonts: DM Sans, Instrument Serif, Be Vietnam Pro, and Lora (SIL Open Font License)."
     },
     "t175": {
-      "vi": "Dự án độc lập được dựa trên các dữ liệu của NASA.",
-      "en": "An independent project based on NASA data."
+      "vi": "Dự án độc lập dựa trên dữ liệu NASA. Lời kể dùng các bản thu do nhóm cung cấp hoặc giọng có sẵn trên thiết bị. Những bản thu theo kịch bản cũ được ghi chú trong phần chọn giọng.",
+      "en": "An independent project based on NASA data. Narration uses the team’s supplied recordings or device voices. Recordings that follow an earlier script are identified in the voice settings."
     },
     "t176": {
       "vi": "GÓC TÒ MÒ / THỬ CÙNG TỚ NÀO",
@@ -878,12 +878,404 @@ const translationCatalog = {
     "t219": {
       "vi": "17,0 km",
       "en": "17.0 km"
+    },
+    "t410": {
+      "vi": "Cả căn phòng vỡ òa.",
+      "en": "The room erupted in cheers."
+    },
+    "t411": {
+      "vi": "19.04.2021 · PHÒNG ĐIỀU KHIỂN JPL",
+      "en": "19 APRIL 2021 · JPL MISSION CONTROL"
+    },
+    "t412": {
+      "vi": "Ngày 19 tháng 4 năm 2021, tại phòng điều khiển JPL, MiMi Aung, giám đốc dự án Ingenuity, bật dậy khỏi ghế. Sau những phút chờ đợi, dữ liệu đã xác nhận điều cả đội mong đợi.",
+      "en": "On April 19, 2021, at JPL mission control, Ingenuity project manager MiMi Aung leaped from her chair. After an anxious wait, the data confirmed what the team had hoped for."
+    },
+    "t413": {
+      "vi": "“Giờ đây, chúng ta có thể khẳng định rằng con người đã thực hiện được chuyến bay bằng trực thăng trên một hành tinh khác.”",
+      "en": "“We can now say that human beings have flown a rotorcraft on another planet.”"
+    },
+    "t416": {
+      "vi": "Câu nói của MiMi Aung được dịch sang tiếng Việt; nguyên văn có trong bản tiếng Anh.",
+      "en": "MiMi Aung’s words, following confirmation of Ingenuity’s first flight."
+    },
+    "t417": {
+      "vi": "NASA / JPL-Caltech · Hình minh họa",
+      "en": "NASA / JPL-Caltech · Artist’s concept"
+    },
+    "t420": {
+      "vi": "Một chiếc trực thăng. Một trang lịch sử.",
+      "en": "One tiny helicopter. A place in history."
+    },
+    "t421": {
+      "vi": "CẢNH 1 · TRÊN BẦU TRỜI SAO HỎA",
+      "en": "SCENE 1 · IN THE MARTIAN SKY"
+    },
+    "t422": {
+      "vi": "Khi bà cất lời, dữ liệu đã mang về hình ảnh từ một thế giới cách Trái Đất gần 300 triệu ki-lô-mét: chiếc trực thăng nhỏ mang tên Ingenuity đã lơ lửng trên bề mặt Sao Hỏa, giữa bầu trời đỏ lặng im.",
+      "en": "As she spoke, data had brought news from a world nearly 300 million kilometers away: a tiny helicopter named Ingenuity had hovered above the Martian surface, in the silent red sky."
+    },
+    "t426": {
+      "vi": "Tín hiệu từ Sao Hỏa cần thời gian để tới Trái Đất. Cả đội đang xác nhận một chuyến bay đã diễn ra, không theo dõi trực tiếp.",
+      "en": "Signals take time to reach Earth. The team was confirming a flight that had already happened, rather than watching it live."
+    },
+    "t427": {
+      "vi": "NASA / JPL-Caltech · Hình minh họa",
+      "en": "NASA / JPL-Caltech · Artist’s concept"
+    },
+    "t430": {
+      "vi": "Hai tháng trước…",
+      "en": "Two months earlier…"
+    },
+    "t431": {
+      "vi": "QUAY NGƯỢC THỜI GIAN · 18.02.2021",
+      "en": "TURN BACK THE CLOCK · 18 FEBRUARY 2021"
+    },
+    "t432": {
+      "vi": "Để hiểu khoảnh khắc ấy, mình cùng quay lại ngày Ingenuity đặt chân đến Sao Hỏa nhé.",
+      "en": "To understand that moment, let’s go back to the day Ingenuity arrived on Mars."
+    },
+    "t433": {
+      "vi": "Ngày 18 tháng 2 năm 2021. Sau khoảng bảy tháng du hành từ Trái Đất, Perseverance cùng người bạn nhỏ đã tới hành tinh đỏ. Chuyến bay đầu tiên vẫn còn ở phía trước.",
+      "en": "February 18, 2021. After about seven months traveling from Earth, Perseverance and its little companion reached the Red Planet. The first flight was still to come."
+    },
+    "t437": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t440": {
+      "vi": "Một chỗ ngồi thật đặc biệt.",
+      "en": "An unusual place to travel."
+    },
+    "t441": {
+      "vi": "CẢNH 2 · HÀNH KHÁCH DƯỚI BỤNG ROVER",
+      "en": "SCENE 2 · A PASSENGER BENEATH THE ROVER"
+    },
+    "t442": {
+      "vi": "Nằm gọn dưới bụng xe tự hành Perseverance, Ingenuity tới Sao Hỏa như một hành khách nhỏ đi nhờ. Chưa từng có chiếc trực thăng nào được đưa đến bề mặt một hành tinh khác như thế.",
+      "en": "Tucked away beneath the belly of the Perseverance rover, Ingenuity arrived on Mars as an attached payload. No helicopter had ever been delivered to the surface of another planet before."
+    },
+    "t443": {
+      "vi": "Trong suốt hành trình, Perseverance mang theo và bảo vệ chiếc trực thăng. Nhưng trước khi Ingenuity có thể dang cánh, cả hai phải vượt qua thử thách hạ cánh.",
+      "en": "Throughout the journey, Perseverance carried and protected the little helicopter. Before Ingenuity could spread its wings, they both had to survive the landing."
+    },
+    "t447": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t450": {
+      "vi": "Ba sợi cáp. Một cú chạm thật khẽ.",
+      "en": "Three cables. One gentle touchdown."
+    },
+    "t451": {
+      "vi": "CẢNH 2 · MÀN HẠ CÁNH SKY CRANE",
+      "en": "SCENE 2 · THE SKY CRANE LANDING"
+    },
+    "t452": {
+      "vi": "Không khí Sao Hỏa quá loãng để một chiếc dù có thể tự mình đưa rover nặng gần một tấn xuống đất an toàn. Sau khi dù làm nhiệm vụ, tầng hạ cánh dùng động cơ tên lửa tiếp tục giảm tốc.",
+      "en": "Mars’ thin air meant a parachute alone could not safely land the roughly one-ton rover. After the parachute had done its job, a rocket-powered descent stage slowed the rover further."
+    },
+    "t453": {
+      "vi": "Rồi, từ tầng hạ cánh đang lơ lửng phía trên, ba sợi cáp nylon nhẹ nhàng hạ Perseverance xuống mặt cát đỏ, cùng Ingenuity vẫn gắn bên dưới. Cơ chế Sky Crane giữ các động cơ ở xa mặt đất, giúp hạn chế bụi và mảnh vụn bị thổi tung quanh rover.",
+      "en": "Then three nylon cables gently lowered Perseverance onto the red ground, with Ingenuity still attached underneath. This sky crane maneuver kept the rocket engines above the rover, reducing the dust and debris kicked up around it."
+    },
+    "t457": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t460": {
+      "vi": "Không có thành công nào được bảo đảm.",
+      "en": "Success is never assured."
+    },
+    "t461": {
+      "vi": "CẢNH 2 · TRƯỚC GIỜ HẠ CÁNH",
+      "en": "SCENE 2 · BEFORE TOUCHDOWN"
+    },
+    "t462": {
+      "vi": "“Thành công không bao giờ là điều chắc chắn, nhất là khi chúng ta đang cố đưa chiếc rover lớn nhất, nặng nhất và phức tạp nhất từng chế tạo xuống địa điểm hạ cánh nguy hiểm nhất mà chúng ta từng thử.”",
+      "en": "“Success is never assured, and that’s especially true when we’re trying to land the biggest, heaviest, and most complicated rover we’ve ever built to the most dangerous site we’ve ever attempted to land on.”"
+    },
+    "t463": {
+      "vi": "— Allen Chen, trưởng nhóm phụ trách quá trình đi vào khí quyển, hạ độ cao và hạ cánh của Mars 2020.",
+      "en": "— Allen Chen, Mars 2020 entry, descent, and landing lead."
+    },
+    "t467": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t470": {
+      "vi": "Người mẹ to lớn. Người bạn nhỏ bé.",
+      "en": "A big rover. A tiny companion."
+    },
+    "t471": {
+      "vi": "CẢNH 3 · HAI NGƯỜI BẠN, HAI SỨ MỆNH",
+      "en": "SCENE 3 · TWO COMPANIONS, TWO MISSIONS"
+    },
+    "t472": {
+      "vi": "Perseverance là một xe tự hành sáu bánh nặng khoảng một tấn, to gần bằng một chiếc ô tô, được chế tạo để vượt qua địa hình gồ ghề của Sao Hỏa.",
+      "en": "Perseverance was a six-wheeled explorer weighing about one metric ton, nearly the size of a car, built to endure the rough ground of Mars."
+    },
+    "t473": {
+      "vi": "Bên cạnh “người mẹ” ấy, Ingenuity nhỏ như một hộp cơm đứng trên bốn chiếc chân mảnh, chỉ nặng 1,8 kg. Chiếc trực thăng bé nhỏ được giao một thử thách khác: bay trong bầu khí quyển Sao Hỏa vô cùng loãng.",
+      "en": "Beside its “mother,” Ingenuity looked like a lunchbox on four slender legs and had a mass of just 1.8 kilograms. The little helicopter had a different challenge: to fly in the very thin Martian atmosphere."
+    },
+    "t477": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t480": {
+      "vi": "Xa thật xa. Vẫn có người lắng nghe.",
+      "en": "Far from home. Still heard."
+    },
+    "t481": {
+      "vi": "CẢNH 3 · NHỮNG LỜI NHẮN VỀ NHÀ",
+      "en": "SCENE 3 · MESSAGES HOME"
+    },
+    "t482": {
+      "vi": "Mọi lời nhắn giữa Ingenuity và Trái Đất đều cần Perseverance làm cầu nối. “Người mẹ” nhận tín hiệu của chiếc trực thăng rồi chuyển tiếp về nhà qua hệ thống liên lạc của nhiệm vụ.",
+      "en": "Every message between Ingenuity and Earth had to pass through its “mother,” Perseverance. The rover received the helicopter’s signals and relayed them home through the mission’s communications network."
+    },
+    "t483": {
+      "vi": "Tùy vị trí của hai hành tinh, tín hiệu một chiều có thể mất tới khoảng 22 phút. Vì vậy, Ingenuity không thể được lái trực tiếp bằng cần điều khiển từ Trái Đất: khi cất cánh, nó phải tự làm theo kế hoạch đã nhận.",
+      "en": "Depending on the positions of the two planets, a one-way signal could take up to about 22 minutes. Ingenuity could not be flown with a joystick from Earth: once airborne, it had to follow its instructions on its own."
+    },
+    "t487": {
+      "vi": "NASA / JPL-Caltech · Hình minh họa",
+      "en": "NASA / JPL-Caltech · Artist’s concept"
+    },
+    "t490": {
+      "vi": "Tớ đâu khởi đầu như một người hùng.",
+      "en": "I did not begin my life as a hero."
+    },
+    "t491": {
+      "vi": "CẢNH 4 · TỪ ĐÂY, ĐỂ TỚ KỂ CẬU NGHE",
+      "en": "SCENE 4 · FROM HERE, LET ME TELL YOU"
+    },
+    "t492": {
+      "vi": "Chào cậu, tớ là Ingenuity. Trước khi được bay, tớ từng chỉ là một ý tưởng khiến nhiều người băn khoăn. Đưa một chiếc trực thăng đến Sao Hỏa liệu có quá mạo hiểm không?",
+      "en": "Hello, friend. I’m Ingenuity. Before I ever flew, I was an idea that raised plenty of questions. Was bringing a helicopter to Mars too much of a risk?"
+    },
+    "t493": {
+      "vi": "Một số người lo rằng thử nghiệm nhỏ này sẽ làm mất thời gian và ảnh hưởng đến nhiệm vụ khoa học quan trọng của Perseverance. Nếu được tự kể, tớ sẽ ví mình như một “vị khách không mời”. Nhưng các kỹ sư vẫn tin rằng tớ xứng đáng có một cơ hội.",
+      "en": "Some worried that this little experiment could take time and attention away from Perseverance’s important science mission. In my own story, I might call myself an “uninvited guest.” But my engineers believed I deserved a chance."
+    },
+    "t496": {
+      "vi": "“Người mẹ”, “vị khách không mời” và lời tự bạch của Ingenuity là cách nhân hóa trong câu chuyện, không phải lời trích dẫn của NASA.",
+      "en": "“Mother,” “uninvited guest,” and Ingenuity’s first-person voice are storytelling devices, not quotations from NASA."
+    },
+    "t497": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t500": {
+      "vi": "Khi Mặt Trời đi ngủ.",
+      "en": "When the Sun goes to sleep."
+    },
+    "t501": {
+      "vi": "Ý 1 · MỘT ĐÊM XA NHÀ",
+      "en": "PART 1 · A NIGHT FAR FROM HOME"
+    },
+    "t502": {
+      "vi": "Cậu có từng nhớ nhà khi đi xa chưa? Tớ thì ở xa đến mức một lời nhắn cũng phải đi qua khoảng không mênh mông. Mỗi đêm, nhiệt độ ở chỗ tớ có thể xuống khoảng −90°C — lạnh hơn ngăn đông nhà cậu rất nhiều!",
+      "en": "Have you ever missed home when you were far away? I’m so far away that even a message has to cross a vast stretch of space. At night, temperatures where I live can fall to around −90°C — much colder than your home freezer!"
+    },
+    "t503": {
+      "vi": "Bầu khí quyển loãng giữ nhiệt rất kém. Ngay cả ban ngày, mặt đất được nắng sưởi ấm cũng có thể ấm hơn nhiều so với lớp không khí phía trên. Khi đêm xuống, tớ phải giữ ấm các linh kiện nhỏ bên trong mình. May mà mẹ Perseverance vẫn ở gần để chuyển lời nhắn về nhà.",
+      "en": "The thin atmosphere holds heat poorly. Even by day, sunlit ground can be much warmer than the air above it. When night falls, I have to keep my little electronic parts warm. Luckily, Mum Perseverance is nearby to pass my messages home."
+    },
+    "t507": {
+      "vi": "NASA / JPL-Caltech · Hình minh họa",
+      "en": "NASA / JPL-Caltech · Artist’s concept"
+    },
+    "t510": {
+      "vi": "Một mắt tìm đường. Một mắt giữ kỷ niệm.",
+      "en": "One eye to navigate. One to share the view."
+    },
+    "t511": {
+      "vi": "Ý 2 · HAI CHIẾC MÁY ẢNH",
+      "en": "PART 2 · TWO CAMERAS"
+    },
+    "t512": {
+      "vi": "Tớ nhìn thế giới bằng hai con mắt rất khác nhau: một mắt đen trắng nhìn xuống mặt đất, giúp tớ ước tính tốc độ và hướng di chuyển; một mắt màu ghi lại vẻ đẹp của Sao Hỏa để gửi về Trái Đất.",
+      "en": "I have two eyes: a black-and-white one that watches the ground to track my speed and direction, and a color one that sends Mars’ beauty home to Earth."
+    },
+    "t513": {
+      "vi": "Những viên đá và đường nét dưới chân chính là dấu mốc chỉ đường. Với cậu, chúng có thể chỉ là cảnh vật. Với tớ, chúng giúp trả lời câu hỏi: “Mình đang di chuyển ra sao nhỉ?”",
+      "en": "Rocks and patterns beneath me are my landmarks. To you, they might just be scenery. To me, they help answer a very important question: “How am I moving?”"
+    },
+    "t517": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t520": {
+      "vi": "Lạc một nhịp giữa không trung.",
+      "en": "One missed beat in midair."
+    },
+    "t521": {
+      "vi": "Ý 2 · CHUYẾN BAY THỨ SÁU · 22.05.2021",
+      "en": "PART 2 · FLIGHT SIX · 22 MAY 2021"
+    },
+    "t522": {
+      "vi": "Có lần, khoảng 54 giây sau khi cất cánh, luồng ảnh từ máy ảnh định vị của tớ gặp lỗi. Một bức ảnh bị mất, còn các ảnh tiếp theo lại mang dấu thời gian sai. Tớ bỗng tính nhầm mình đang di chuyển như thế nào.",
+      "en": "Once, about 54 seconds after takeoff, a glitch interrupted the images from my navigation camera. One image was lost, and the next ones arrived with incorrect timestamps. Suddenly, I was misjudging my own movement."
+    },
+    "t523": {
+      "vi": "Tớ liên tục cố điều chỉnh, nghiêng qua nghiêng lại hơn 20 độ giữa không trung. Một phen thót tim! May thay, hệ thống điều khiển vẫn đủ khả năng giữ tớ ổn định để hạ cánh an toàn.",
+      "en": "I kept trying to correct myself, rocking and tilting more than 20 degrees in midair. What a scare! Fortunately, my control system had enough safety margin to keep me flying until I landed safely."
+    },
+    "t526": {
+      "vi": "Ảnh bên cạnh thuộc chuyến bay 13, dùng để minh họa; không phải ảnh ghi lại sự cố chuyến bay 6.",
+      "en": "The image is from Flight 13 and is used as an illustration; it does not show the Flight 6 incident."
+    },
+    "t527": {
+      "vi": "NASA / JPL-Caltech / ASU / MSSS · Chuyến bay 13, ảnh minh họa",
+      "en": "NASA / JPL-Caltech / ASU / MSSS · Flight 13, illustrative image"
+    },
+    "t530": {
+      "vi": "Có những ngày, chờ cũng là dũng cảm.",
+      "en": "Some days, courage means waiting."
+    },
+    "t531": {
+      "vi": "Ý 3 · KHI BỤI CHE MẶT TRỜI",
+      "en": "PART 3 · WHEN DUST HID THE SUN"
+    },
+    "t532": {
+      "vi": "Bữa sáng của cậu là gì? Của tớ là ánh nắng. Nhưng rồi một cơn bão bụi tràn tới, khiến bầu trời mờ đi. Trong đợt bão tháng 1 năm 2022, lượng ánh sáng tấm pin của tớ nhận được giảm khoảng 18%.",
+      "en": "What do you have for breakfast? I have sunlight. But then a dust storm swept in and dimmed the sky. During the January 2022 storm, the sunlight reaching my solar panel dropped by about 18%."
+    },
+    "t533": {
+      "vi": "Ít nắng nghĩa là ít năng lượng hơn, mà tớ vẫn cần giữ ấm qua đêm. Các kỹ sư cho tớ hoãn bay, theo dõi tình hình và chờ thời tiết tốt lên. Không phải lúc nào tiến về phía trước cũng có nghĩa là cất cánh ngay.",
+      "en": "Less sunlight meant less energy, and I still needed to stay warm overnight. My engineers postponed my flight, checked conditions, and waited for better weather. Moving forward does not always mean taking off right away."
+    },
+    "t537": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t540": {
+      "vi": "Bay lên chỉ là một phần câu chuyện.",
+      "en": "Flying is only part of the story."
+    },
+    "t541": {
+      "vi": "Ý 4 · NĂNG LƯỢNG CHO MỘT NGÀY SỐNG",
+      "en": "PART 4 · THE ENERGY TO KEEP GOING"
+    },
+    "t542": {
+      "vi": "Cậu tưởng tớ dành hết năng lượng cho đôi cánh à? Thật ra, giữ ấm qua những đêm giá lạnh cũng là một công việc rất tốn pin. Các linh kiện bên trong tớ phải đủ ấm thì ngày mai tớ mới có thể hoạt động tiếp.",
+      "en": "You might think all my energy goes into flying. In fact, surviving the freezing night takes a large share of my battery power. My electronics have to stay warm enough for me to work again the next day."
+    },
+    "t543": {
+      "vi": "Lượng năng lượng cần cho bay và sưởi ấm thay đổi theo thời tiết, mùa và kế hoạch hoạt động. Vì thế, trước mỗi chuyến bay, các kỹ sư phải tính xem tớ còn đủ năng lượng để vượt qua đêm tiếp theo hay không.",
+      "en": "The energy needed for flying and heating changes with the weather, the season, and the flight plan. Before each flight, my engineers have to make sure I can still get through the next night."
+    },
+    "t547": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t550": {
+      "vi": "Tớ chỉ quên mất giờ hẹn thôi.",
+      "en": "I had only forgotten the time."
+    },
+    "t551": {
+      "vi": "Ý 4 · MÙA ĐÔNG VÀ CUỘC HẸN BỊ LỠ",
+      "en": "PART 4 · WINTER AND A MISSED APPOINTMENT"
+    },
+    "t552": {
+      "vi": "Rồi mùa đông đến. Những đêm dài hơn và lượng ánh sáng giảm khiến pin của tớ không đủ sức giữ máy tính hoạt động suốt đêm. Tớ tắt đi trong giá lạnh, như thể đã thiếp ngủ.",
+      "en": "Then winter came. Longer nights and less sunlight left my battery unable to keep my computer running through the night. I shut down in the cold, as if I had fallen asleep."
+    },
+    "t553": {
+      "vi": "Khi nắng đánh thức tớ vào sáng hôm sau, đồng hồ đã được đặt lại. Tớ không quên mọi người đâu; chỉ là tớ không còn biết đúng giờ để bắt liên lạc với Perseverance. Sau những giờ hồi hộp, các kỹ sư nhờ mẹ lắng nghe lâu hơn — và chúng tớ tìm lại được nhau.",
+      "en": "When the Sun woke me the next morning, my clock had reset. I had not forgotten my friends; I had lost track of when to contact Perseverance. After an anxious wait, my engineers asked Mum to listen for longer — and we found each other again."
+    },
+    "t557": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t560": {
+      "vi": "Đôi cánh dừng lại trên cát.",
+      "en": "The day my wings came to rest."
+    },
+    "t561": {
+      "vi": "Ý 5 · CHUYẾN BAY 72 · 18.01.2024",
+      "en": "PART 5 · FLIGHT 72 · 18 JANUARY 2024"
+    },
+    "t562": {
+      "vi": "Rồi chuyến bay cuối cùng cũng đến. Bên dưới tớ là những gợn cát trơn nhẵn, ít dấu mốc để máy ảnh bám theo. Khi không còn nhìn rõ mình đang trôi ngang ra sao, tớ đã gặp khó lúc hạ cánh.",
+      "en": "Then came my final flight. Below me lay smooth sand ripples with too few landmarks for my camera to track. Without a clear sense of my sideways motion, I struggled to land safely."
+    },
+    "t563": {
+      "vi": "Theo kịch bản có khả năng nhất mà các kỹ sư dựng lại, tớ chạm mạnh xuống sườn một gợn cát. Cú nghiêng đột ngột tạo ra lực vượt quá sức chịu đựng của các cánh quạt, khiến chúng gãy. Mỏng manh như miếng bánh ốc quế trong câu chuyện của tớ, đôi cánh ấy không thể đưa tớ bay thêm nữa.",
+      "en": "In the engineers’ most likely reconstruction, I hit the slope of a sand ripple hard. The sudden pitching and rolling overloaded my spinning blades and broke them. As fragile as ice-cream cones in my story, those wings could no longer carry me into the sky."
+    },
+    "t567": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t570": {
+      "vi": "Đôi cánh gãy. Những điều học được còn ở lại.",
+      "en": "Broken wings. Lessons that remain."
+    },
+    "t571": {
+      "vi": "Ý 5 · MỘT CÁCH KHÁC ĐỂ TIẾP TỤC",
+      "en": "PART 5 · ANOTHER WAY TO KEEP GOING"
+    },
+    "t572": {
+      "vi": "Dù không thể bay nữa, sau lần hạ cánh ấy tớ vẫn hoạt động và đã nối lại liên lạc với Perseverance. Trước khi khép lại công việc với tớ vào tháng 4 năm 2024, các kỹ sư gửi lên một bản cập nhật cuối cùng.",
+      "en": "Though I could no longer fly, I survived the landing and reestablished contact with Perseverance. Before their final shift with me in April 2024, my engineers sent one last software update."
+    },
+    "t573": {
+      "vi": "Họ chuẩn bị để tớ trở thành một trạm thử nghiệm tại chỗ: chụp ảnh, theo dõi nhiệt độ và tình trạng thiết bị, rồi lưu dữ liệu trong bộ nhớ khi rover đi xa khỏi vùng liên lạc. Biết đâu, một nhà thám hiểm tương lai sẽ tìm thấy những món quà dữ liệu ấy.",
+      "en": "They prepared me to become a stationary testbed: taking pictures, recording temperatures and equipment performance, and storing data locally after the rover moved out of radio range. Perhaps a future explorer will one day find those gifts of data."
+    },
+    "t576": {
+      "vi": "Đây là kế hoạch NASA công bố tháng 4 năm 2024, không phải xác nhận Ingenuity vẫn đang hoạt động hay liên lạc với Trái Đất hôm nay.",
+      "en": "This describes NASA’s April 2024 plan, not a claim that Ingenuity is still operating or communicating with Earth today."
+    },
+    "t577": {
+      "vi": "NASA / JPL-Caltech · Tư liệu minh họa",
+      "en": "NASA / JPL-Caltech · Reference image"
+    },
+    "t580": {
+      "vi": "Năm lần bay thử. Bảy mươi hai lần cất cánh.",
+      "en": "Five planned flights. Seventy-two takeoffs."
+    },
+    "t581": {
+      "vi": "Ý 6 · NHÌN LẠI HÀNH TRÌNH",
+      "en": "PART 6 · LOOKING BACK"
+    },
+    "t582": {
+      "vi": "Nhìn lại hành trình, chính tớ cũng thấy ngỡ ngàng. Người ta chỉ dự định cho tớ bay thử tối đa năm lần. Vậy mà trong gần ba năm, tớ đã cất cánh 72 lần, bay khoảng 17 ki-lô-mét trên một thế giới khác.",
+      "en": "Looking back on my journey, I can hardly believe it. I was meant to make up to five test flights. Instead, over almost three years, I took off 72 times and traveled about 17 kilometers on another world."
+    },
+    "t583": {
+      "vi": "Từ một thử nghiệm đầy hoài nghi, tớ trở thành đôi mắt trinh sát giúp nhóm điều khiển Perseverance nhìn trước địa hình. Đôi cánh có thể đã dừng lại, nhưng những bài học của tớ vẫn mở đường cho các chuyến bay tiếp theo. Còn cậu, cậu muốn đưa giấc mơ của mình đến đâu?",
+      "en": "I began as a doubted experiment and became a scouting eye, helping Perseverance’s team see the terrain ahead. My wings may have stopped, but what we learned is opening the way for future flights. And you — where would you like your dream to take you?"
+    },
+    "t587": {
+      "vi": "NASA / JPL-Caltech · Hình minh họa",
+      "en": "NASA / JPL-Caltech · Artist’s concept"
+    },
+    "t700": {
+      "vi": "NASA — Điều tra lần hạ cánh cuối cùng",
+      "en": "NASA — Investigating the final landing"
+    },
+    "t701": {
+      "vi": "Trích dẫn Allen Chen về thử thách hạ cánh",
+      "en": "Allen Chen’s words on the landing challenge"
+    },
+    "t710": {
+      "vi": "Bản thu bổ sung · Khi cảm biến hỏng",
+      "en": "Bonus recording · When a sensor failed"
+    },
+    "t711": {
+      "vi": "Bản thu tiếng Việt từ kịch bản trước, giữ lại để nhóm tham khảo. Đoạn này không thuộc thứ tự trang của kịch bản mới.",
+      "en": "A Vietnamese recording from the earlier script, retained for the team’s reference. This scene is outside the new story sequence."
     }
   },
   "attrs": {
     "a001": {
-      "vi": "OwO, về đầu câu chuyện",
-      "en": "OwO, back to the beginning"
+      "vi": "Aevum, về đầu câu chuyện",
+      "en": "Aevum, back to the beginning"
     },
     "a002": {
       "vi": "Điều hướng chính",
@@ -996,6 +1388,78 @@ const translationCatalog = {
     "a029": {
       "vi": "Đóng nhật ký",
       "en": "Close the logbook"
+    },
+    "a101": {
+      "vi": "Cả căn phòng vỡ òa. · Ảnh minh họa của NASA.",
+      "en": "The room erupted in cheers. · NASA reference illustration."
+    },
+    "a102": {
+      "vi": "Một chiếc trực thăng. Một trang lịch sử. · Ảnh minh họa của NASA.",
+      "en": "One tiny helicopter. A place in history. · NASA reference illustration."
+    },
+    "a103": {
+      "vi": "Hai tháng trước… · Ảnh minh họa của NASA.",
+      "en": "Two months earlier… · NASA reference illustration."
+    },
+    "a104": {
+      "vi": "Một chỗ ngồi thật đặc biệt. · Ảnh minh họa của NASA.",
+      "en": "An unusual place to travel. · NASA reference illustration."
+    },
+    "a105": {
+      "vi": "Ba sợi cáp. Một cú chạm thật khẽ. · Ảnh minh họa của NASA.",
+      "en": "Three cables. One gentle touchdown. · NASA reference illustration."
+    },
+    "a106": {
+      "vi": "Không có thành công nào được bảo đảm. · Ảnh minh họa của NASA.",
+      "en": "Success is never assured. · NASA reference illustration."
+    },
+    "a107": {
+      "vi": "Người mẹ to lớn. Người bạn nhỏ bé. · Ảnh minh họa của NASA.",
+      "en": "A big rover. A tiny companion. · NASA reference illustration."
+    },
+    "a108": {
+      "vi": "Xa thật xa. Vẫn có người lắng nghe. · Ảnh minh họa của NASA.",
+      "en": "Far from home. Still heard. · NASA reference illustration."
+    },
+    "a109": {
+      "vi": "Tớ đâu khởi đầu như một người hùng. · Ảnh minh họa của NASA.",
+      "en": "I did not begin my life as a hero. · NASA reference illustration."
+    },
+    "a110": {
+      "vi": "Khi Mặt Trời đi ngủ. · Ảnh minh họa của NASA.",
+      "en": "When the Sun goes to sleep. · NASA reference illustration."
+    },
+    "a111": {
+      "vi": "Một mắt tìm đường. Một mắt giữ kỷ niệm. · Ảnh minh họa của NASA.",
+      "en": "One eye to navigate. One to share the view. · NASA reference illustration."
+    },
+    "a112": {
+      "vi": "Lạc một nhịp giữa không trung. · Ảnh minh họa của NASA.",
+      "en": "One missed beat in midair. · NASA reference illustration."
+    },
+    "a113": {
+      "vi": "Có những ngày, chờ cũng là dũng cảm. · Ảnh minh họa của NASA.",
+      "en": "Some days, courage means waiting. · NASA reference illustration."
+    },
+    "a114": {
+      "vi": "Bay lên chỉ là một phần câu chuyện. · Ảnh minh họa của NASA.",
+      "en": "Flying is only part of the story. · NASA reference illustration."
+    },
+    "a115": {
+      "vi": "Tớ chỉ quên mất giờ hẹn thôi. · Ảnh minh họa của NASA.",
+      "en": "I had only forgotten the time. · NASA reference illustration."
+    },
+    "a116": {
+      "vi": "Đôi cánh dừng lại trên cát. · Ảnh minh họa của NASA.",
+      "en": "The day my wings came to rest. · NASA reference illustration."
+    },
+    "a117": {
+      "vi": "Đôi cánh gãy. Những điều học được còn ở lại. · Ảnh minh họa của NASA.",
+      "en": "Broken wings. Lessons that remain. · NASA reference illustration."
+    },
+    "a118": {
+      "vi": "Năm lần bay thử. Bảy mươi hai lần cất cánh. · Ảnh minh họa của NASA.",
+      "en": "Five planned flights. Seventy-two takeoffs. · NASA reference illustration."
     }
   }
 };
@@ -1151,66 +1615,87 @@ const uploadedAudio = {
     "chapter-1": [
       "assets/audio/vi/clip-02.mp3"
     ],
-    "scene-2": [
+    "arrival": [
       "assets/audio/vi/clip-03.mp3"
     ],
-    "scene-3": [
+    "uninvited-guest": [
       "assets/audio/vi/clip-01.mp3"
     ],
     "chapter-2": [
       "assets/audio/vi/clip-04.mp3"
     ],
-    "scene-5": [
+    "two-eyes": [
       "assets/audio/vi/clip-05.mp3"
     ],
-    "scene-6": [
+    "flight-six": [
       "assets/audio/vi/clip-06.mp3"
     ],
-    "chapter-3": [
+    "dust-storm": [
       "assets/audio/vi/clip-07.mp3"
     ],
-    "scene-8": [
+    "winter": [
       "assets/audio/vi/clip-08.mp3"
-    ],
-    "chapter-4": [
-      "assets/audio/vi/clip-09.mp3"
     ]
   },
   "en": {
-    "chapter-1": [
+    "scene-2": [
       "assets/audio/en/clip-02.mp3"
     ],
-    "scene-2": [
-      "assets/audio/en/clip-01.mp3",
-      "assets/audio/en/clip-03.mp3",
+    "arrival": [
+      "assets/audio/en/clip-01.mp3"
+    ],
+    "sky-crane": [
+      "assets/audio/en/clip-03.mp3"
+    ],
+    "landing-quote": [
       "assets/audio/en/clip-04.mp3"
     ],
-    "scene-3": [
-      "assets/audio/en/clip-05.mp3",
+    "mother-and-child": [
+      "assets/audio/en/clip-05.mp3"
+    ],
+    "messages-home": [
       "assets/audio/en/clip-06.mp3"
     ],
-    "chapter-2": [
-      "assets/audio/en/clip-11.mp3"
-    ],
-    "scene-5": [
+    "two-eyes": [
       "assets/audio/en/clip-07.mp3"
     ],
-    "scene-6": [
+    "flight-six": [
       "assets/audio/en/clip-08.mp3"
     ],
-    "chapter-3": [
+    "dust-storm": [
       "assets/audio/en/clip-09.mp3"
     ],
-    "scene-8": [
+    "keeping-warm": [
+      "assets/audio/en/clip-11.mp3"
+    ],
+    "winter": [
       "assets/audio/en/clip-14.mp3"
     ],
-    "chapter-5": [
+    "final-flight": [
       "assets/audio/en/clip-10.mp3"
     ],
-    "scene-12": [
-      "assets/audio/en/clip-12.mp3",
+    "still-here": [
+      "assets/audio/en/clip-12.mp3"
+    ],
+    "legacy": [
       "assets/audio/en/clip-13.mp3"
     ]
+  }
+};
+const draftRecordings = {
+  "vi": {
+    "arrival": true,
+    "uninvited-guest": true
+  },
+  "en": {
+    "sky-crane": true,
+    "flight-six": true,
+    "dust-storm": true,
+    "keeping-warm": true,
+    "winter": true,
+    "final-flight": true,
+    "still-here": true,
+    "legacy": true
   }
 };
 const storyAudio = $('#story-audio') || document.createElement('audio');
@@ -1453,7 +1938,8 @@ function announce(message) {
   toastTimer = setTimeout(() => toast.classList.remove('show'), 4200);
 }
 
-function stopSpeech() {
+function stopSpeech(exceptAudio = null) {
+  $$('.bonus-recording audio').forEach(audio => { if (audio !== exceptAudio) audio.pause(); });
   speechGeneration += 1;
   if (speechSupported) window.speechSynthesis.cancel();
   if (typeof storyAudio?.pause === 'function') {
@@ -1463,6 +1949,8 @@ function stopSpeech() {
     try { storyAudio.currentTime = 0; } catch { /* Metadata may not have loaded yet. */ }
   }
 }
+
+$$('.bonus-recording audio').forEach(audio => audio.addEventListener('play', () => stopSpeech(audio)));
 
 // The device may load voices asynchronously; only use the selected language.
 const voiceSelect = $('#voice-select');
@@ -1475,7 +1963,9 @@ function recordedPlaylist(step = currentStep) {
   return uploadedAudio[currentLanguage]?.[id] || [];
 }
 function recordedSource(step = currentStep) {
-  return (!selectedVoiceURI || selectedVoiceURI === '__recorded__') ? recordedPlaylist(step)[0] || '' : '';
+  const id = step?.closest('[data-book-page]')?.id;
+  const draft = draftRecordings[currentLanguage]?.[id];
+  return (selectedVoiceURI === '__recorded__' || (!selectedVoiceURI && !draft)) ? recordedPlaylist(step)[0] || '' : '';
 }
 function hasRecordedNarration() { return Object.keys(uploadedAudio[currentLanguage] || {}).length > 0; }
 function playRecording(step, preview = false, override = null) {
@@ -1512,7 +2002,7 @@ function updateAudioNote() {
   if (!currentStep) return;
   let note = currentStep.querySelector('.recording-note');
   if (!note) { note=document.createElement('p'); note.className='recording-note'; const text=currentStep.querySelector('.page-story-text'); if(text)currentStep.insertBefore(note,text);else currentStep.append(note); }
-  note.textContent = recordedSource() ? tr('Âm thanh: bản thu bạn cung cấp.', 'Audio: supplied recording — alternate wording, not a word-for-word reading of this page.') : tr('Âm thanh: giọng trình duyệt. Trang này chưa có bản thu được chọn.', 'Audio: browser voice. No supplied recording is selected for this page.');
+  note.textContent = recordedSource() ? tr('Âm thanh: MP3 gốc của nhóm; một số chi tiết có thể khác bản chữ đã hiệu đính.', 'Audio: the team’s original MP3; some details may differ from the revised text.') : tr('Âm thanh: giọng thiết bị đọc bản đã hiệu đính. Có thể chọn MP3 gốc trong mục Giọng nếu trang này có bản thu.', 'Audio: device voice reads the revised text. Original MP3s, where available, can be selected in Voice.');
 }
 function voicesForLanguage() {
   const language = currentLanguage === 'en' ? /^en(?:[-_]|$)/i : /^vi(?:[-_]|$)/i;
@@ -1539,10 +2029,10 @@ function refreshVoiceOptions() {
   const files=recordedPlaylist(); const recorded=Boolean(recordedSource()); const voices=voicesForLanguage();
   voiceSelect.disabled=false; pitchSlider.disabled=recorded;
   voiceSelect.replaceChildren(new Option(tr('Giọng trình duyệt (đọc đúng chữ trên trang)', 'Browser voice (reads the page text)'), '__browser__'));
-  if (files.length) voiceSelect.add(new Option(tr('Bản thu bạn cung cấp', 'Your supplied recording'), '__recorded__'));
+  if (files.length) voiceSelect.add(new Option(tr('MP3 gốc của nhóm (có thể khác bản đã hiệu đính)', 'Team’s original MP3 (may differ from revised text)'), '__recorded__'));
   voices.forEach(voice=>voiceSelect.add(new Option(voice.name,voice.voiceURI)));
   voiceSelect.value=recorded?'__recorded__':voices.some(v=>v.voiceURI===selectedVoiceURI)?selectedVoiceURI:'__browser__';
-  $('#voice-status').textContent=recorded?tr('Đang dùng MP3 bạn gửi. Chỉnh được tốc độ; giữ nguyên giọng gốc.', 'Using your MP3s. Speed is adjustable; the original voice is preserved. English audio uses alternate wording.') : preferredVoice(voices)?tr('Đang dùng giọng thiết bị để đọc văn bản trên trang.', 'Using a device voice to read this page.') : tr('Chưa có giọng tiếng Việt phù hợp trên thiết bị.', 'No English browser voice is available on this device.');
+  $('#voice-status').textContent=recorded?tr('Đang dùng MP3 bạn gửi. Chỉnh được tốc độ; giữ nguyên giọng gốc.', 'Using your MP3s. Speed is adjustable; the original voice is preserved. Original recordings may differ from the revised page text.') : preferredVoice(voices)?tr('Đang dùng giọng thiết bị để đọc văn bản trên trang.', 'Using a device voice to read this page.') : tr('Chưa có giọng tiếng Việt phù hợp trên thiết bị.', 'No English browser voice is available on this device.');
   $('#voice-preview').disabled=!recorded&&!preferredVoice(voices);
   updateAudioNote();
 }
@@ -1712,7 +2202,8 @@ function pageCounter(page, index, compact = compactBook.matches) {
   if (page.dataset.kind === 'cover') return tr('Bìa sách', 'Book cover');
   if (page.dataset.kind === 'contents') return tr('Mục lục', 'Contents');
   const number = index - 1;
-  return compact ? `${tr('Trang', 'Page')} ${number} / 13` : `${tr('Trang', 'Pages')} ${number * 2 - 1}–${number * 2} / 26`;
+  const total = bookPages.filter(item => ['story', 'ending'].includes(item.dataset.kind)).length;
+  return compact ? `${tr('Trang', 'Page')} ${number} / ${total}` : `${tr('Trang', 'Pages')} ${number * 2 - 1}–${number * 2} / ${total * 2}`;
 }
 function updateBookControls() {
   if (!bookPages.length) return;
@@ -1720,10 +2211,14 @@ function updateBookControls() {
   $('#book-prev').disabled = currentBookPage === 0;
   $('#book-next').disabled = currentBookPage === bookPages.length - 1;
   $('#book-counter').textContent = pageCounter(page, currentBookPage);
+  $$('[data-start-spread]').forEach(folio => {
+    const spread = Number(folio.dataset.startSpread);
+    folio.textContent = String(compactBook.matches ? spread : spread * 2 - 1).padStart(2, '0');
+  });
   const folio = $('.paper-footer>span:last-child', page);
   if (folio && currentBookPage >= 2) folio.textContent = String(compactBook.matches ? currentBookPage - 1 : (currentBookPage - 1) * 2).padStart(2, '0');
   $('#book-chapter-label').textContent = page.dataset.kind === 'cover' ? tr('Một câu chuyện của Aevum', 'A story by Aevum')
-    : page.dataset.kind === 'contents' ? tr('Năm chương · một người bạn nhỏ', 'Five chapters · one little friend')
+    : page.dataset.kind === 'contents' ? tr('Hai chương · một người bạn nhỏ', 'Two chapters · one little friend')
     : page.dataset.kind === 'ending' ? tr('Hết chuyện, chưa hết ước mơ', 'The story ends. The dream goes on.')
     : `${tr('Chương', 'Chapter')} ${page.dataset.chapter} · ${chapterName(page.dataset.chapter)}`;
   const nextText = page.dataset.kind === 'cover' ? tr('Mở sách', 'Open book') : page.dataset.kind === 'contents' ? tr('Bắt đầu nhé', 'Let’s begin') : tr('Trang tiếp', 'Next page');
