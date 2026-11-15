@@ -1,5 +1,7 @@
 THIS PROJECTS CONTAIN PARTIALLY AI-GENERATED CODES & CONTENTS
 
+LINNK TO WEBSITE: [text](https://the-wright-brother-s-martian-heir.pages.dev/)
+
 # Martian Heir
 
 An interactive, bilingual storybook about NASA’s Ingenuity Mars Helicopter, created by **Aevum**.
@@ -13,8 +15,6 @@ Follow a little helicopter’s journey from Earth to its extraordinary flights o
 - Responsive layouts for desktop, tablets and phones.
 - MP3 narration with browser-voice fallback.
 - Chapter navigation, mission notes and learning activities.
-
-The story text has been edited in both languages for natural wording and scientific accuracy. All 23 supplied MP3s are preserved. Where an older recording differs materially from the revised scene, the device voice reads the updated text by default; the original recording remains available in **Voice**. The Vietnamese sensor recording is available there as a bonus.
 
 See `CONTENT-NOTES.md` for the factual edits and `AUDIO-MAPPING.csv` for the page-to-audio mapping.
 
