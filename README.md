@@ -1,6 +1,6 @@
 THIS PROJECTS CONTAIN PARTIALLY AI-GENERATED CODES & CONTENTS
 
-LINNK TO WEBSITE: [text](https://the-wright-brother-s-martian-heir.pages.dev/)
+LINNK TO WEBSITE: [https://the-wright-brother-s-martian-heir.pages.dev/](https://the-wright-brother-s-martian-heir.pages.dev/)
 
 # Martian Heir
 
