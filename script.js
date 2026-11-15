@@ -32,8 +32,8 @@ const translationCatalog = {
       "en": "ONE LITTLE BOOK · TWO CHAPTERS"
     },
     "t008": {
-      "vi": "Aevum · MỘT CÂU CHUYỆN TỪ SAO HỎA",
-      "en": "Aevum · A STORY FROM MARS"
+      "vi": "MỘT CÂU CHUYỆN TỪ SAO HỎA",
+      "en": "A STORY FROM MARS"
     },
     "t009": {
       "vi": "NGƯỜI KẾ THỪA GIẤC MƠ BAY",
@@ -164,8 +164,8 @@ const translationCatalog = {
       "en": "How did a little helicopter get all the way here?"
     },
     "t041": {
-      "vi": "NHÓM Aevum",
-      "en": "TEAM Aevum"
+      "vi": "",
+      "en": ""
     },
     "t042": {
       "vi": "CHƯƠNG 01",
