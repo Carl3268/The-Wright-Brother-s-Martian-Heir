@@ -60,7 +60,7 @@ Created by **Aevum**.
 - MAI QUYNH THU: RESOURCES & NARRATORS' VOICES
 Mission information and imagery: **NASA / JPL-Caltech**, with additional credits inside the website.
 
-This independent project is not affiliated with NASA.
+This independent project uses NASA's official datas.
 
 ## License
 
