@@ -700,8 +700,8 @@ const translationCatalog = {
       "en": ". Images: NASA / JPL-Caltech, with additional ASU / MSSS credits where applicable, including images from the project’s “Ảnh” (Images) tab. Flight 13 photographs used as illustrations are clearly captioned. Logo: a vector recreation of the team’s supplied image. Fonts: DM Sans, Instrument Serif, Be Vietnam Pro, and Lora (SIL Open Font License)."
     },
     "t175": {
-      "vi": "Dự án độc lập dựa trên dữ liệu NASA.",
-      "en": "An independent project based on NASA data."
+      "vi": "Dự án dựa trên dữ liệu NASA.",
+      "en": "A project based on NASA data."
     },
     "t176": {
       "vi": "GÓC TÒ MÒ / THỬ CÙNG TỚ NÀO",
