@@ -22,6 +22,9 @@ See `CONTENT-NOTES.md` for the factual edits and `AUDIO-MAPPING.csv` for the pag
 
 HTML, CSS and vanilla JavaScript. No installation or build step is required.
 
+## Hosting
+This website is hosted using CLoudflare Pages
+
 ## Main Files
 
 - `index.html` — Vietnamese entry page.
