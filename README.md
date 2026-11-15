@@ -1,8 +1,5 @@
 THIS PROJECTS CONTAIN PARTIALLY AI-GENERATED CODES & CONTENTS
 
-ALL NARRATORS' VOICES ARE AI-GENERATED
-
-
 # Martian Heir
 
 An interactive, bilingual storybook about NASA’s Ingenuity Mars Helicopter, created by **Aevum**.
