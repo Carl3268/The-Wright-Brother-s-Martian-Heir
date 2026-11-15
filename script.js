@@ -52,8 +52,8 @@ const translationCatalog = {
       "en": "Open the book"
     },
     "t013": {
-      "vi": "BY Aevum",
-      "en": "BY Aevum"
+      "vi": "",
+      "en": ""
     },
     "t014": {
       "vi": "GỬI NHỮNG NGƯỜI BẠN THÍCH NGƯỚC NHÌN BẦU TRỜI",
@@ -568,8 +568,8 @@ const translationCatalog = {
       "en": "Left behind, but not forgotten."
     },
     "t142": {
-      "vi": "Một câu chuyện độc lập lấy cảm hứng từ NASA.",
-      "en": "An independent storytelling project inspired by NASA."
+      "vi": "Một câu chuyện được dựa trên dữ liệu & nhật ký bay của Ingenuity.",
+      "en": "An story based on Ingenuity's datas & flights logs."
     },
     "t143": {
       "vi": "MỤC LỤC CUỐN SÁCH",
@@ -628,8 +628,8 @@ const translationCatalog = {
       "en": "A lot of real discovery."
     },
     "t157": {
-      "vi": "Câu chuyện của nhóm được xây dựng từ nhật ký bay và dữ liệu nhiệm vụ của Ingenuity.",
-      "en": "Our story draws on Ingenuity’s flight logs and mission data."
+      "vi": "Câu chuyện của bọn mình được tạo nên từ các nhật ký bay và dữ liệu của Ingenuity OwO",
+      "en": "Our story is created using Ingenuity's flights logs and datas OwO"
     },
     "t158": {
       "vi": "“Nội dung chi tiết”",
@@ -700,8 +700,8 @@ const translationCatalog = {
       "en": ". Images: NASA / JPL-Caltech, with additional ASU / MSSS credits where applicable, including images from the project’s “Ảnh” (Images) tab. Flight 13 photographs used as illustrations are clearly captioned. Logo: a vector recreation of the team’s supplied image. Fonts: DM Sans, Instrument Serif, Be Vietnam Pro, and Lora (SIL Open Font License)."
     },
     "t175": {
-      "vi": "Dự án độc lập dựa trên dữ liệu NASA. Lời kể dùng các bản thu do nhóm cung cấp hoặc giọng có sẵn trên thiết bị. Những bản thu theo kịch bản cũ được ghi chú trong phần chọn giọng.",
-      "en": "An independent project based on NASA data. Narration uses the team’s supplied recordings or device voices. Recordings that follow an earlier script are identified in the voice settings."
+      "vi": "Dự án độc lập dựa trên dữ liệu NASA.",
+      "en": "An independent project based on NASA data."
     },
     "t176": {
       "vi": "GÓC TÒ MÒ / THỬ CÙNG TỚ NÀO",
