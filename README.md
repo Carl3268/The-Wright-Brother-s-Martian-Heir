@@ -1,7 +1,7 @@
 THIS PROJECTS CONTAIN PARTIALLY AI-GENERATED CODES & CONTENTS
 
 LINNK TO WEBSITE: [https://the-wright-brother-s-martian-heir.pages.dev/](https://the-wright-brother-s-martian-heir.pages.dev/)
-
+DETAILS: https://www.canva.com/design/DAHa5_hICdM/D3ja5ohvELqD-ZT5UJVq4A
 # Martian Heir
 
 An interactive, bilingual storybook about NASA’s Ingenuity Mars Helicopter, created by **Aevum**.
